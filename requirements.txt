@@ -1,0 +1,25 @@
+# ==============================================================================
+# FIFA World Cup (1930 - 2026) Data Project - Python Dependencies
+# ==============================================================================
+# Cài đặt toàn bộ thư viện cần thiết bằng lệnh:
+#     pip install -r requirements.txt
+# ==============================================================================
+
+# --- 1. CORE DATA ENGINEERING & MANIPULATION ---
+pandas>=2.2.0,<4.0.0            # Đọc, xử lý, biến đổi đặc trưng và xuất Master Dataset
+numpy>=1.26.0,<3.0.0            # Các phép toán ma trận, hàm mũ (exp), logarit, chuẩn hóa số học
+python-dateutil>=2.8.2          # Phân tích cú pháp ngày giờ lịch thi đấu (Datetime Parsing)
+
+# --- 2. DATA VISUALIZATION & STATISTICAL GRAPHICS ---
+matplotlib>=3.8.0,<4.0.0        # Vẽ biểu đồ kết hợp (Combo chart), phân phối, lưu ảnh 300 DPI
+seaborn>=0.13.0,<1.0.0          # Biểu đồ mật độ KDE, Histogram, Boxplot trực quan hóa độ lệch Skewness
+
+# --- 3. JUPYTER NOTEBOOK ENVIRONMENT ---
+notebook>=7.0.0                 # Môi trường chạy và trực quan hóa Jupyter Notebook
+ipykernel>=6.29.0               # Kernel thực thi mã nguồn Python trong notebook
+nbconvert>=7.16.0               # Tự động hóa thực thi và render biểu đồ vào file .ipynb
+
+# --- 4. DATA INGESTION & WEB CRAWLING ---
+kagglehub>=0.2.0                # Tải tự động bộ dữ liệu World Cup gốc từ Kaggle
+requests>=2.31.0                # Gửi request tải dữ liệu lịch thi đấu trực tuyến
+beautifulsoup4>=4.12.0          # Bóc tách và parse dữ liệu HTML/Text lịch sử

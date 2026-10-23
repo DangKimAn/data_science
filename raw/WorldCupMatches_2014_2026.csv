@@ -1,0 +1,297 @@
+Year,Datetime,Stage,Stadium,City,Home Team Name,Home Team Goals,Away Team Goals,Away Team Name,Win conditions,Attendance,Half-time Home Goals,Half-time Away Goals,Referee,Assistant 1,Assistant 2
+2014,Thu Jun 12 2014 - 17:00 UTC-3,Group A,Neo Química Arena,São Paulo,Brazil,3,1,Croatia,,,,,Yuichi Nishimura (JPN),Toru SAGARA (JPN),Toshiyuki NAGI (JPN)
+2014,Fri Jun 13 2014 - 13:00 UTC-3,Group A,Estadio das Dunas,Natal,Mexico,1,0,Cameroon,,,,,Wilmar Alexander Roldán Pérez (COL),Humberto CLAVIJO (COL),Eduardo DIAZ (COL)
+2014,Tue Jun 17 2014 - 16:00 UTC-3,Group A,Estadio Castelao,Fortaleza,Brazil,0,0,Mexico,,,,,Cüneyt Çakιr (TUR),Bahattin Duran (TUR),Tarık Ongun (TUR)
+2014,Wed Jun 18 2014 - 18:00 UTC-4,Group A,Arena Amazonia,Manaus,Cameroon,0,4,Croatia,,,,,Pedro PROENCA (POR),Bertino MIRANDA (POR),Jose TRIGO (POR)
+2014,Mon Jun 23 2014 - 17:00 UTC-3,Group A,Arena Pernambuco,Recife,Croatia,1,3,Mexico,,,,,Ravshan IRMATOV (UZB),Abdukhamidullo RASULOV (UZB),Bakhadyr KOCHKAROV (KGZ)
+2014,Mon Jun 23 2014 - 17:00 UTC-3,Group A,Estádio Nacional Mané Garrincha,Brasília,Cameroon,1,4,Brazil,,,,,Jonas ERIKSSON (SWE),Mathias KLASENIUS (SWE),Daniel Wärnmark (SWE)
+2014,Fri Jun 13 2014 - 16:00 UTC-3,Group B,Fonte Nova Arena,Salvador,Spain,1,5,Netherlands,,,,,Nicola RIZZOLI (ITA),Renato FAVERANI (ITA),Andrea STEFANI (ITA)
+2014,Fri Jun 13 2014 - 18:00 UTC-4,Group B,Arena Pantanal,Cuiabá,Chile,3,1,Australia,,,,,Noumandiez DOUE (CIV),Songuifolo YEO (CIV),Jean Claude BIRUMUSHAHU (BDI)
+2014,Wed Jun 18 2014 - 13:00 UTC-3,Group B,Estadio Beira-Rio,Porto Alegre,Australia,2,3,Netherlands,,,,,Djamel HAIMOUDI (ALG),Redouane ACHIK (MAR),Abdelhak ETCHIALI (ALG)
+2014,Wed Jun 18 2014 - 16:00 UTC-3,Group B,Maracanã,Rio de Janeiro,Spain,0,2,Chile,,,,,Mark GEIGER (USA),Sean HURD (USA),Joe FLETCHER (CAN)
+2014,Mon Jun 23 2014 - 13:00 UTC-3,Group B,Neo Química Arena,São Paulo,Netherlands,2,0,Chile,,,,,Bakary GASSAMA (GAM),Evarist MENKOUANDE (CMR),Felicien KABANDA (RWA)
+2014,Mon Jun 23 2014 - 13:00 UTC-3,Group B,Arena da Baixada,Curitiba,Australia,0,3,Spain,,,,,Nawaf Abdulla Ghayyath Shukralla (BHR),Yaser TULEFAT (BHR),Ebrahim SALEH (BHR)
+2014,Sat Jun 14 2014 - 13:00 UTC-3,Group C,Estadio Mineirao,Belo Horizonte,Colombia,3,0,Greece,,,,,Mark GEIGER (USA),Sean HURD (USA),Joe FLETCHER (CAN)
+2014,Sat Jun 14 2014 - 22:00 UTC-3,Group C,Arena Pernambuco,Recife,Côte d'Ivoire,2,1,Japan,,,,,Enrique OSSES (CHI),Carlos ASTROZA (CHI),Sergio ROMAN (CHI)
+2014,Thu Jun 19 2014 - 13:00 UTC-3,Group C,Estádio Nacional Mané Garrincha,Brasília,Colombia,2,1,Côte d'Ivoire,,,,,Howard WEBB (ENG),Michael MULLARKEY (ENG),Darren Cann (ENG)
+2014,Thu Jun 19 2014 - 19:00 UTC-3,Group C,Estadio das Dunas,Natal,Japan,0,0,Greece,,,,,Joel AGUILAR (SLV),William Torres (SLV),Juan Francisco Zumba (SLV)
+2014,Tue Jun 24 2014 - 16:00 UTC-4,Group C,Arena Pantanal,Cuiabá,Japan,1,4,Colombia,,,,,Pedro PROENCA (POR),Bertino MIRANDA (POR),Jose TRIGO (POR)
+2014,Tue Jun 24 2014 - 17:00 UTC-3,Group C,Estadio Castelao,Fortaleza,Greece,2,1,Côte d'Ivoire,,,,,Carlos Alfredo Vera Rodríguez (ECU),Christian Daniel Lescano Guerrero (ECU),Byron Norberto Romero Ibarra (ECU)
+2014,Sat Jun 14 2014 - 16:00 UTC-3,Group D,Estadio Castelao,Fortaleza,Uruguay,1,3,Costa Rica,,,,,Felix BRYCH (GER),Mark Borsch (GER),Stefan Lupp (GER)
+2014,Sat Jun 14 2014 - 18:00 UTC-4,Group D,Arena Amazonia,Manaus,England,1,2,Italy,,,,,Bjorn KUIPERS (NED),Sander VAN ROEKEL (NED),Erwin Zeinstra (NED)
+2014,Thu Jun 19 2014 - 16:00 UTC-3,Group D,Neo Química Arena,São Paulo,Uruguay,2,1,England,,,,,Carlos VELASCO CARBALLO (ESP),Roberto Alonso Fernández (ESP),Juan Carlos Yuste Jiménez (ESP)
+2014,Fri Jun 20 2014 - 13:00 UTC-3,Group D,Arena Pernambuco,Recife,Italy,0,1,Costa Rica,,,,,Enrique OSSES (CHI),Carlos ASTROZA (CHI),Sergio ROMAN (CHI)
+2014,Tue Jun 24 2014 - 13:00 UTC-3,Group D,Estadio Mineirao,Belo Horizonte,Costa Rica,0,0,England,,,,,Djamel HAIMOUDI (ALG),Redouane ACHIK (MAR),Abdelhak ETCHIALI (ALG)
+2014,Tue Jun 24 2014 - 13:00 UTC-3,Group D,Estadio das Dunas,Natal,Italy,0,1,Uruguay,,,,,Marco RODRIGUEZ (MEX),Marvin TORRENTERA (MEX),Marcos QUINTERO (MEX)
+2014,Sun Jun 15 2014 - 13:00 UTC-3,Group E,Estádio Nacional Mané Garrincha,Brasília,Switzerland,2,1,Ecuador,,,,,Ravshan IRMATOV (UZB),Abdukhamidullo RASULOV (UZB),Bakhadyr KOCHKAROV (KGZ)
+2014,Sun Jun 15 2014 - 16:00 UTC-3,Group E,Estadio Beira-Rio,Porto Alegre,France,3,0,Honduras,,,,,Sandro RICCI (BRA),Emerson DE CARVALHO (BRA),Marcelo Carvalho Van Gasse (BRA)
+2014,Fri Jun 20 2014 - 16:00 UTC-3,Group E,Fonte Nova Arena,Salvador,Switzerland,2,5,France,,,,,Bjorn KUIPERS (NED),Sander VAN ROEKEL (NED),Erwin Zeinstra (NED)
+2014,Fri Jun 20 2014 - 19:00 UTC-3,Group E,Arena da Baixada,Curitiba,Honduras,1,2,Ecuador,,,,,Benjamin WILLIAMS (AUS),Matthew CREAM (AUS),Hakan ANAZ (AUS)
+2014,Wed Jun 25 2014 - 17:00 UTC-3,Group E,Maracanã,Rio de Janeiro,Ecuador,0,0,France,,,,,Noumandiez DOUE (CIV),Songuifolo YEO (CIV),Jean Claude BIRUMUSHAHU (BDI)
+2014,Wed Jun 25 2014 - 16:00 UTC-4,Group E,Arena Amazonia,Manaus,Honduras,0,3,Switzerland,,,,,Néstor Fabián Pitana (ARG),Hernán Maidana (ARG),Juan Pablo Belatti (ARG)
+2014,Sun Jun 15 2014 - 19:00 UTC-3,Group F,Maracanã,Rio de Janeiro,Argentina,2,1,Bosnia-Herzegovina,,,,,Joel AGUILAR (SLV),William Torres (SLV),Juan Francisco Zumba (SLV)
+2014,Mon Jun 16 2014 - 16:00 UTC-3,Group F,Arena da Baixada,Curitiba,Iran,0,0,Nigeria,,,,,Carlos Alfredo Vera Rodríguez (ECU),Christian Daniel Lescano Guerrero (ECU),Byron Norberto Romero Ibarra (ECU)
+2014,Sat Jun 21 2014 - 13:00 UTC-3,Group F,Estadio Mineirao,Belo Horizonte,Argentina,1,0,Iran,,,,,Milorad Mažić (SRB),Milovan Ristić (SRB),Dalibor Đurđević (SRB)
+2014,Sat Jun 21 2014 - 18:00 UTC-4,Group F,Arena Pantanal,Cuiabá,Nigeria,1,0,Bosnia-Herzegovina,,,,,Peter O LEARY (NZL),Jan Hendrik HINTZ (NZL),Mark RULE (NZL)
+2014,Wed Jun 25 2014 - 13:00 UTC-3,Group F,Estadio Beira-Rio,Porto Alegre,Nigeria,2,3,Argentina,,,,,Nicola RIZZOLI (ITA),Renato FAVERANI (ITA),Andrea STEFANI (ITA)
+2014,Wed Jun 25 2014 - 13:00 UTC-3,Group F,Fonte Nova Arena,Salvador,Bosnia-Herzegovina,3,1,Iran,,,,,Carlos VELASCO CARBALLO (ESP),Roberto Alonso Fernández (ESP),Juan Carlos Yuste Jiménez (ESP)
+2014,Mon Jun 16 2014 - 13:00 UTC-3,Group G,Fonte Nova Arena,Salvador,Germany,4,0,Portugal,,,,,Milorad Mažić (SRB),Milovan Ristić (SRB),Dalibor Đurđević (SRB)
+2014,Mon Jun 16 2014 - 19:00 UTC-3,Group G,Estadio das Dunas,Natal,Ghana,1,2,USA,,,,,Jonas ERIKSSON (SWE),Mathias KLASENIUS (SWE),Daniel Wärnmark (SWE)
+2014,Sat Jun 21 2014 - 16:00 UTC-3,Group G,Estadio Castelao,Fortaleza,Germany,2,2,Ghana,,,,,Sandro RICCI (BRA),Emerson DE CARVALHO (BRA),Marcelo Carvalho Van Gasse (BRA)
+2014,Sun Jun 22 2014 - 18:00 UTC-4,Group G,Arena Amazonia,Manaus,USA,2,2,Portugal,,,,,Néstor Fabián Pitana (ARG),Hernán Maidana (ARG),Juan Pablo Belatti (ARG)
+2014,Thu Jun 26 2014 - 13:00 UTC-3,Group G,Arena Pernambuco,Recife,USA,0,1,Germany,,,,,Ravshan IRMATOV (UZB),Abdukhamidullo RASULOV (UZB),Bakhadyr KOCHKAROV (KGZ)
+2014,Thu Jun 26 2014 - 13:00 UTC-3,Group G,Estádio Nacional Mané Garrincha,Brasília,Portugal,2,1,Ghana,,,,,Nawaf Abdulla Ghayyath Shukralla (BHR),Yaser TULEFAT (BHR),Ebrahim SALEH (BHR)
+2014,Tue Jun 17 2014 - 13:00 UTC-3,Group H,Estadio Mineirao,Belo Horizonte,Belgium,2,1,Algeria,,,,,Marco RODRIGUEZ (MEX),Marvin TORRENTERA (MEX),Marcos QUINTERO (MEX)
+2014,Tue Jun 17 2014 - 18:00 UTC-4,Group H,Arena Pantanal,Cuiabá,Russia,1,1,South Korea,,,,,Néstor Fabián Pitana (ARG),Hernán Maidana (ARG),Juan Pablo Belatti (ARG)
+2014,Sun Jun 22 2014 - 13:00 UTC-3,Group H,Maracanã,Rio de Janeiro,Belgium,1,0,Russia,,,,,Felix BRYCH (GER),Mark Borsch (GER),Stefan Lupp (GER)
+2014,Sun Jun 22 2014 - 16:00 UTC-3,Group H,Estadio Beira-Rio,Porto Alegre,South Korea,2,4,Algeria,,,,,Wilmar Alexander Roldán Pérez (COL),Eduardo DIAZ (COL),Christian Daniel Lescano Guerrero (ECU)
+2014,Thu Jun 26 2014 - 17:00 UTC-3,Group H,Arena da Baixada,Curitiba,Algeria,1,1,Russia,,,,,Cüneyt Çakιr (TUR),Bahattin Duran (TUR),Tarık Ongun (TUR)
+2014,Thu Jun 26 2014 - 17:00 UTC-3,Group H,Neo Química Arena,São Paulo,South Korea,0,1,Belgium,,,,,Benjamin WILLIAMS (AUS),Matthew CREAM (AUS),Hakan ANAZ (AUS)
+2014,Sat Jun 28 2014 - 13:00 UTC-3,Round of 16,Estadio Mineirao,Belo Horizonte,Brazil,1,1,Chile,"a.e.t., 3-2 pen.",,,,Howard WEBB (ENG),Michael MULLARKEY (ENG),Darren Cann (ENG)
+2014,Sat Jun 28 2014 - 17:00 UTC-3,Round of 16,Maracanã,Rio de Janeiro,Colombia,2,0,Uruguay,,,1.0,0.0,Bjorn KUIPERS (NED),Sander VAN ROEKEL (NED),Erwin Zeinstra (NED)
+2014,Sun Jun 29 2014 - 13:00 UTC-3,Round of 16,Estadio Castelao,Fortaleza,Netherlands,2,1,Mexico,,,0.0,0.0,Pedro PROENCA (POR),Bertino MIRANDA (POR),Jose TRIGO (POR)
+2014,Sun Jun 29 2014 - 17:00 UTC-3,Round of 16,Arena Pernambuco,Recife,Costa Rica,1,1,Greece,"a.e.t., 5-3 pen.",,,,Benjamin WILLIAMS (AUS),Matthew CREAM (AUS),Hakan ANAZ (AUS)
+2014,Mon Jun 30 2014 - 13:00 UTC-3,Round of 16,Estádio Nacional Mané Garrincha,Brasília,France,2,0,Nigeria,,,0.0,0.0,Mark GEIGER (USA),Sean HURD (USA),Joe FLETCHER (CAN)
+2014,Mon Jun 30 2014 - 17:00 UTC-3,Round of 16,Estadio Beira-Rio,Porto Alegre,Germany,2,1,Algeria,a.e.t.,,0.0,0.0,Sandro RICCI (BRA),Emerson DE CARVALHO (BRA),Marcelo Carvalho Van Gasse (BRA)
+2014,Tue Jul 1 2014 - 13:00 UTC-3,Round of 16,Neo Química Arena,São Paulo,Argentina,1,0,Switzerland,a.e.t.,,0.0,0.0,Jonas ERIKSSON (SWE),Mathias KLASENIUS (SWE),Daniel Wärnmark (SWE)
+2014,Tue Jul 1 2014 - 17:00 UTC-3,Round of 16,Fonte Nova Arena,Salvador,Belgium,2,1,USA,a.e.t.,,0.0,0.0,Djamel HAIMOUDI (ALG),Redouane ACHIK (MAR),Abdelhak ETCHIALI (ALG)
+2014,Fri Jul 4 2014 - 13:00 UTC-3,Quarter-final,Maracanã,Rio de Janeiro,France,0,1,Germany,,,0.0,1.0,Néstor Fabián Pitana (ARG),Hernán Maidana (ARG),Juan Pablo Belatti (ARG)
+2014,Fri Jul 4 2014 - 17:00 UTC-3,Quarter-final,Estadio Castelao,Fortaleza,Brazil,2,1,Colombia,,,1.0,0.0,Carlos VELASCO CARBALLO (ESP),Roberto Alonso Fernández (ESP),Juan Carlos Yuste Jiménez (ESP)
+2014,Sat Jul 5 2014 - 13:00 UTC-3,Quarter-final,Estádio Nacional Mané Garrincha,Brasília,Argentina,1,0,Belgium,,,1.0,0.0,Nicola RIZZOLI (ITA),Renato FAVERANI (ITA),Andrea STEFANI (ITA)
+2014,Sat Jul 5 2014 - 17:00 UTC-3,Quarter-final,Fonte Nova Arena,Salvador,Netherlands,0,0,Costa Rica,"a.e.t., 4-3 pen.",,,,Ravshan IRMATOV (UZB),Abdukhamidullo RASULOV (UZB),Bakhadyr KOCHKAROV (KGZ)
+2014,Tue Jul 8 2014 - 17:00 UTC-3,Semi-final,Estadio Mineirao,Belo Horizonte,Brazil,1,7,Germany,,,0.0,5.0,Marco RODRIGUEZ (MEX),Marvin TORRENTERA (MEX),Marcos QUINTERO (MEX)
+2014,Wed Jul 9 2014 - 17:00 UTC-3,Semi-final,Neo Química Arena,São Paulo,Netherlands,0,0,Argentina,"a.e.t., 2-4 pen.",,,,Cüneyt Çakιr (TUR),Bahattin Duran (TUR),Tarık Ongun (TUR)
+2014,Sat Jul 12 2014 - 17:00 UTC-3,Play-off for third place,Estádio Nacional Mané Garrincha,Brasília,Brazil,0,3,Netherlands,,,0.0,2.0,Djamel HAIMOUDI (ALG),Redouane ACHIK (MAR),Abdelhak ETCHIALI (ALG)
+2014,Sun Jul 13 2014 - 16:00 UTC-3,Final,Maracanã,Rio de Janeiro,Germany,1,0,Argentina,a.e.t.,,0.0,0.0,Nicola RIZZOLI (ITA),Renato FAVERANI (ITA),Andrea STEFANI (ITA)
+2018,Thu Jun 14 2018 - 18:00 UTC+3,Group A,Lenin,Moscow,Russia,5,0,Saudi Arabia,,78011.0,2.0,0.0,Néstor Fabián Pitana (ARG),Hernán Maidana (ARG),Juan Pablo Belatti (ARG)
+2018,Fri Jun 15 2018 - 17:00 UTC+5,Group A,Ekaterinburg Arena,Yekaterinburg,Egypt,0,1,Uruguay,,27015.0,0.0,0.0,Björn Kuipers (NED),Sander van Roekel (NED),Erwin Zeinstra (NED)
+2018,Tue Jun 19 2018 - 21:00 UTC+3,Group A,Krestovsky Stadium,Saint Petersburg,Russia,3,1,Egypt,,64468.0,0.0,0.0,Enrique Patricio Cáceres Villafañe (PAR),Eduardo Cardozo (PAR),Juan Bautista Zorrilla Castellano (PAR)
+2018,Wed Jun 20 2018 - 18:00 UTC+3,Group A,Rostov Arena,Rostov-on-Don,Uruguay,1,0,Saudi Arabia,,42678.0,1.0,0.0,Clément Turpin (FRA),Nicolas Danos (FRA),Cyril Gringore (FRA)
+2018,Mon Jun 25 2018 - 17:00 UTC+3,Group A,Central Stadium,Volgograd,Saudi Arabia,2,1,Egypt,,36823.0,1.0,1.0,Wilmar Alexander Roldán Pérez (COL),Alexander Guzmán Bonilla (COL),Cristian DE LA CRUZ (COL)
+2018,Mon Jun 25 2018 - 18:00 UTC+4,Group A,Samara Arena,Samara,Uruguay,3,0,Russia,,41970.0,2.0,0.0,Malang DIEDHIOU (SEN),Djibril Camara (SEN),El Hadji Malick Samba (SEN)
+2018,Fri Jun 15 2018 - 18:00 UTC+3,Group B,Krestovsky Stadium,Saint Petersburg,Morocco,0,1,Iran,,62548.0,0.0,0.0,Cüneyt Çakιr (TUR),Bahattin Duran (TUR),Tarık Ongun (TUR)
+2018,Fri Jun 15 2018 - 21:00 UTC+3,Group B,Fisht Olympic Stadium,Sochi,Portugal,3,3,Spain,,43866.0,2.0,1.0,Gianluca Rocchi (ITA),Elenito Di Liberatore (ITA),Mauro Tonolini (ITA)
+2018,Wed Jun 20 2018 - 15:00 UTC+3,Group B,Lenin,Moscow,Portugal,1,0,Morocco,,78011.0,1.0,0.0,Mark GEIGER (USA),Joe FLETCHER (CAN),Frank Anderson (USA)
+2018,Wed Jun 20 2018 - 21:00 UTC+3,Group B,Ak Bars Arena,Kazan,Iran,0,1,Spain,,42718.0,0.0,0.0,Andrés Cunha (URU),Nicolás Taran (URU),Mauricio ESPINOSA (URU)
+2018,Mon Jun 25 2018 - 21:00 UTC+3,Group B,Mordovia Arena,Saransk,Iran,1,1,Portugal,,41685.0,0.0,1.0,Enrique Patricio Cáceres Villafañe (PAR),Eduardo Cardozo (PAR),Juan Bautista Zorrilla Castellano (PAR)
+2018,Mon Jun 25 2018 - 20:00 UTC+2,Group B,Kaliningrad Stadium,Kaliningrad,Spain,2,2,Morocco,,33973.0,1.0,1.0,Ravshan IRMATOV (UZB),Abdukhamidullo RASULOV (UZB),Jakhongir SAIDOV (UZB)
+2018,Sat Jun 16 2018 - 13:00 UTC+3,Group C,Ak Bars Arena,Kazan,France,2,1,Australia,,41279.0,0.0,0.0,Andrés Cunha (URU),Nicolás Taran (URU),Mauricio ESPINOSA (URU)
+2018,Sat Jun 16 2018 - 19:00 UTC+3,Group C,Mordovia Arena,Saransk,Peru,0,1,Denmark,,40502.0,0.0,0.0,Bakary GASSAMA (GAM),Jean Claude BIRUMUSHAHU (BDI),Abdelhak Etchiali (ALG)
+2018,Thu Jun 21 2018 - 16:00 UTC+4,Group C,Samara Arena,Samara,Denmark,1,1,Australia,,40727.0,1.0,1.0,Antonio Miguel Mateu Lahoz (ESP),Pau Cebrián Devis (ESP),Roberto Díaz Pérez Del Palomar (ESP)
+2018,Thu Jun 21 2018 - 20:00 UTC+5,Group C,Ekaterinburg Arena,Yekaterinburg,France,1,0,Peru,,32789.0,1.0,0.0,Mohammed ABDULLA (UAE),Mohamed AL HAMMADI (UAE),Hasan AL MAHRI (UAE)
+2018,Tue Jun 26 2018 - 17:00 UTC+3,Group C,Lenin,Moscow,Denmark,0,0,France,,78011.0,0.0,0.0,Sandro RICCI (BRA),Emerson DE CARVALHO (BRA),Marcelo Carvalho Van Gasse (BRA)
+2018,Tue Jun 26 2018 - 17:00 UTC+3,Group C,Fisht Olympic Stadium,Sochi,Australia,0,2,Peru,,44073.0,0.0,1.0,Sergey Karasev (RUS),Anton Averianov (RUS),Tikhon KALUGIN (RUS)
+2018,Sat Jun 16 2018 - 16:00 UTC+3,Group D,Otkrytiye Arena,Moscow,Argentina,1,1,Iceland,,44190.0,1.0,1.0,Szymon Marciniak (POL),Pawel Sokolnicki (POL),Tomasz Listkiewicz (POL)
+2018,Sat Jun 16 2018 - 21:00 UTC+2,Group D,Kaliningrad Stadium,Kaliningrad,Croatia,2,0,Nigeria,,31136.0,1.0,0.0,Sandro RICCI (BRA),Emerson DE CARVALHO (BRA),Marcelo Carvalho Van Gasse (BRA)
+2018,Thu Jun 21 2018 - 21:00 UTC+3,Group D,Nizhny Novgorod Stadium,Nizhny Novgorod,Argentina,0,3,Croatia,,43319.0,0.0,0.0,Ravshan IRMATOV (UZB),Abdukhamidullo RASULOV (UZB),Jakhongir SAIDOV (UZB)
+2018,Fri Jun 22 2018 - 18:00 UTC+3,Group D,Central Stadium,Volgograd,Nigeria,2,0,Iceland,,40904.0,0.0,0.0,Matthew Rowell Conger (NZL),Simon LOUNT (NZL),Tevita MAKASINI (TGA)
+2018,Tue Jun 26 2018 - 21:00 UTC+3,Group D,Krestovsky Stadium,Saint Petersburg,Nigeria,1,2,Argentina,,64468.0,0.0,1.0,Cüneyt Çakιr (TUR),Bahattin Duran (TUR),Tarık Ongun (TUR)
+2018,Tue Jun 26 2018 - 21:00 UTC+3,Group D,Rostov Arena,Rostov-on-Don,Iceland,1,2,Croatia,,43472.0,0.0,0.0,Antonio Miguel Mateu Lahoz (ESP),Pau Cebrián Devis (ESP),Roberto Díaz Pérez Del Palomar (ESP)
+2018,Sun Jun 17 2018 - 16:00 UTC+4,Group E,Samara Arena,Samara,Costa Rica,0,1,Serbia,,41432.0,0.0,0.0,Malang DIEDHIOU (SEN),Djibril Camara (SEN),El Hadji Malick Samba (SEN)
+2018,Sun Jun 17 2018 - 21:00 UTC+3,Group E,Rostov Arena,Rostov-on-Don,Brazil,1,1,Switzerland,,43109.0,1.0,0.0,César Arturo Ramos Palazuelos (MEX),Marvin TORRENTERA (MEX),Miguel Ángel Hernández Paredes (MEX)
+2018,Fri Jun 22 2018 - 15:00 UTC+3,Group E,Krestovsky Stadium,Saint Petersburg,Brazil,2,0,Costa Rica,,64468.0,0.0,0.0,Björn Kuipers (NED),Sander van Roekel (NED),Erwin Zeinstra (NED)
+2018,Fri Jun 22 2018 - 20:00 UTC+2,Group E,Kaliningrad Stadium,Kaliningrad,Serbia,1,2,Switzerland,,33167.0,1.0,0.0,Felix Brych (GER),Mark Borsch (GER),Stefan Lupp (GER)
+2018,Wed Jun 27 2018 - 21:00 UTC+3,Group E,Nizhny Novgorod Stadium,Nizhny Novgorod,Switzerland,2,2,Costa Rica,,43319.0,1.0,0.0,Clément Turpin (FRA),Nicolas Danos (FRA),Cyril Gringore (FRA)
+2018,Wed Jun 27 2018 - 21:00 UTC+3,Group E,Otkrytiye Arena,Moscow,Serbia,0,2,Brazil,,44190.0,0.0,1.0,Alireza Faghani (IRN),Reza SOKHANDAN (IRN),Mohammad Reza Mansouri (IRN)
+2018,Sun Jun 17 2018 - 18:00 UTC+3,Group F,Lenin,Moscow,Germany,0,1,Mexico,,78011.0,0.0,1.0,Alireza Faghani (IRN),Reza SOKHANDAN (IRN),Mohammad Reza Mansouri (IRN)
+2018,Mon Jun 18 2018 - 15:00 UTC+3,Group F,Nizhny Novgorod Stadium,Nizhny Novgorod,Sweden,1,0,South Korea,,42300.0,0.0,0.0,Joel Antonio Aguilar Chicas (SLV),Juan Francisco Zumba (SLV),Juan Carlos Mora (CRC)
+2018,Sat Jun 23 2018 - 18:00 UTC+3,Group F,Rostov Arena,Rostov-on-Don,South Korea,1,2,Mexico,,43472.0,0.0,1.0,Milorad Mažić (SRB),Milovan Ristić (SRB),Dalibor Đurđević (SRB)
+2018,Sat Jun 23 2018 - 21:00 UTC+3,Group F,Fisht Olympic Stadium,Sochi,Germany,2,1,Sweden,,44287.0,0.0,1.0,Szymon Marciniak (POL),Pawel Sokolnicki (POL),Tomasz Listkiewicz (POL)
+2018,Wed Jun 27 2018 - 19:00 UTC+5,Group F,Ekaterinburg Arena,Yekaterinburg,Mexico,0,3,Sweden,,33061.0,0.0,0.0,Néstor Fabián Pitana (ARG),Hernán Maidana (ARG),Juan Pablo Belatti (ARG)
+2018,Wed Jun 27 2018 - 17:00 UTC+3,Group F,Ak Bars Arena,Kazan,South Korea,2,0,Germany,,41835.0,0.0,0.0,Mark GEIGER (USA),Joe FLETCHER (CAN),Frank Anderson (USA)
+2018,Mon Jun 18 2018 - 18:00 UTC+3,Group G,Fisht Olympic Stadium,Sochi,Belgium,3,0,Panama,,43257.0,0.0,0.0,Janny Sikazwe (ZAM),Jerson Emiliano dos Santos (ANG),Zakhele SIWELA (RSA)
+2018,Mon Jun 18 2018 - 21:00 UTC+3,Group G,Central Stadium,Volgograd,Tunisia,1,2,England,,41064.0,1.0,1.0,Wilmar Alexander Roldán Pérez (COL),Alexander Guzmán Bonilla (COL),Cristian DE LA CRUZ (COL)
+2018,Sat Jun 23 2018 - 15:00 UTC+3,Group G,Otkrytiye Arena,Moscow,Belgium,5,2,Tunisia,,44190.0,3.0,1.0,Jair Marrufo (USA),Corey Rockwell (USA),Juan Francisco Zumba (SLV)
+2018,Sun Jun 24 2018 - 15:00 UTC+3,Group G,Nizhny Novgorod Stadium,Nizhny Novgorod,England,6,1,Panama,,43319.0,5.0,0.0,Ghead GRISHA (EGY),Redouane ACHIK (MAR),Waleed AHMED (SDN)
+2018,Thu Jun 28 2018 - 20:00 UTC+2,Group G,Kaliningrad Stadium,Kaliningrad,England,0,1,Belgium,,33973.0,0.0,0.0,Damir SKOMINA (SVN),Jure Praprotnik (SVN),Robert Vukan (SVN)
+2018,Thu Jun 28 2018 - 21:00 UTC+3,Group G,Mordovia Arena,Saransk,Panama,1,2,Tunisia,,37168.0,1.0,0.0,Nawaf Abdulla Ghayyath Shukralla (BHR),Yaser TULEFAT (BHR),Taleb Salem Al Marri (QAT)
+2018,Tue Jun 19 2018 - 15:00 UTC+3,Group H,Mordovia Arena,Saransk,Colombia,1,2,Japan,,40842.0,1.0,1.0,Damir SKOMINA (SVN),Jure Praprotnik (SVN),Robert Vukan (SVN)
+2018,Tue Jun 19 2018 - 18:00 UTC+3,Group H,Otkrytiye Arena,Moscow,Poland,1,2,Senegal,,44190.0,0.0,1.0,Nawaf Abdulla Ghayyath Shukralla (BHR),Yaser TULEFAT (BHR),Taleb Salem Al Marri (QAT)
+2018,Sun Jun 24 2018 - 20:00 UTC+5,Group H,Ekaterinburg Arena,Yekaterinburg,Japan,2,2,Senegal,,32572.0,1.0,1.0,Gianluca Rocchi (ITA),Elenito Di Liberatore (ITA),Mauro Tonolini (ITA)
+2018,Sun Jun 24 2018 - 21:00 UTC+3,Group H,Ak Bars Arena,Kazan,Poland,0,3,Colombia,,42873.0,0.0,1.0,César Arturo Ramos Palazuelos (MEX),Marvin TORRENTERA (MEX),Miguel Ángel Hernández Paredes (MEX)
+2018,Thu Jun 28 2018 - 17:00 UTC+3,Group H,Central Stadium,Volgograd,Japan,0,1,Poland,,42189.0,0.0,1.0,Janny Sikazwe (ZAM),Jerson Emiliano dos Santos (ANG),Zakhele SIWELA (RSA)
+2018,Thu Jun 28 2018 - 18:00 UTC+4,Group H,Samara Arena,Samara,Senegal,0,1,Colombia,,41970.0,0.0,1.0,Milorad Mažić (SRB),Milovan Ristić (SRB),Dalibor Đurđević (SRB)
+2018,Sat Jun 30 2018 - 17:00 UTC+3,Round of 16,Ak Bars Arena,Kazan,France,4,3,Argentina,,42873.0,1.0,1.0,Alireza Faghani (IRN),Reza SOKHANDAN (IRN),Mohammad Reza Mansouri (IRN)
+2018,Sat Jun 30 2018 - 21:00 UTC+3,Round of 16,Fisht Olympic Stadium,Sochi,Uruguay,2,1,Portugal,,44287.0,1.0,0.0,César Arturo Ramos Palazuelos (MEX),Marvin TORRENTERA (MEX),Miguel Ángel Hernández Paredes (MEX)
+2018,Sun Jul 1 2018 - 17:00 UTC+3,Round of 16,Lenin,Moscow,Spain,1,1,Russia,"a.e.t., 3-4 pen.",78011.0,,,Björn Kuipers (NED),Sander van Roekel (NED),Erwin Zeinstra (NED)
+2018,Sun Jul 1 2018 - 21:00 UTC+3,Round of 16,Nizhny Novgorod Stadium,Nizhny Novgorod,Croatia,1,1,Denmark,"a.e.t., 3-2 pen.",40851.0,,,Néstor Fabián Pitana (ARG),Hernán Maidana (ARG),Juan Pablo Belatti (ARG)
+2018,Mon Jul 2 2018 - 18:00 UTC+4,Round of 16,Samara Arena,Samara,Brazil,2,0,Mexico,,41970.0,0.0,0.0,Gianluca Rocchi (ITA),Elenito Di Liberatore (ITA),Mauro Tonolini (ITA)
+2018,Mon Jul 2 2018 - 21:00 UTC+3,Round of 16,Rostov Arena,Rostov-on-Don,Belgium,3,2,Japan,,41466.0,0.0,0.0,Malang DIEDHIOU (SEN),Djibril Camara (SEN),El Hadji Malick Samba (SEN)
+2018,Tue Jul 3 2018 - 17:00 UTC+3,Round of 16,Krestovsky Stadium,Saint Petersburg,Sweden,1,0,Switzerland,,64042.0,0.0,0.0,Damir SKOMINA (SVN),Jure Praprotnik (SVN),Robert Vukan (SVN)
+2018,Tue Jul 3 2018 - 21:00 UTC+3,Round of 16,Otkrytiye Arena,Moscow,Colombia,1,1,England,"a.e.t., 3-4 pen.",44190.0,,,Mark GEIGER (USA),Joe FLETCHER (CAN),Frank Anderson (USA)
+2018,Fri Jul 6 2018 - 17:00 UTC+3,Quarter-final,Nizhny Novgorod Stadium,Nizhny Novgorod,Uruguay,0,2,France,,43319.0,0.0,1.0,Néstor Fabián Pitana (ARG),Hernán Maidana (ARG),Juan Pablo Belatti (ARG)
+2018,Fri Jul 6 2018 - 21:00 UTC+3,Quarter-final,Ak Bars Arena,Kazan,Brazil,1,2,Belgium,,42873.0,0.0,2.0,Milorad Mažić (SRB),Milovan Ristić (SRB),Dalibor Đurđević (SRB)
+2018,Sat Jul 7 2018 - 18:00 UTC+4,Quarter-final,Samara Arena,Samara,Sweden,0,2,England,,39991.0,0.0,1.0,Björn Kuipers (NED),Sander van Roekel (NED),Erwin Zeinstra (NED)
+2018,Sat Jul 7 2018 - 21:00 UTC+3,Quarter-final,Fisht Olympic Stadium,Sochi,Russia,2,2,Croatia,"a.e.t., 3-4 pen.",44287.0,,,Sandro RICCI (BRA),Emerson DE CARVALHO (BRA),Marcelo Carvalho Van Gasse (BRA)
+2018,Tue Jul 10 2018 - 21:00 UTC+3,Semi-final,Krestovsky Stadium,Saint Petersburg,France,1,0,Belgium,,64286.0,0.0,0.0,Andrés Cunha (URU),Nicolás Taran (URU),Mauricio ESPINOSA (URU)
+2018,Wed Jul 11 2018 - 21:00 UTC+3,Semi-final,Lenin,Moscow,Croatia,2,1,England,a.e.t.,78011.0,1.0,1.0,Cüneyt Çakιr (TUR),Bahattin Duran (TUR),Tarık Ongun (TUR)
+2018,Sat Jul 14 2018 - 17:00 UTC+3,Play-off for third place,Krestovsky Stadium,Saint Petersburg,Belgium,2,0,England,,64406.0,1.0,0.0,Alireza Faghani (IRN),Reza SOKHANDAN (IRN),Mohammad Reza Mansouri (IRN)
+2018,Sun Jul 15 2018 - 18:00 UTC+3,Final,Lenin,Moscow,France,4,2,Croatia,,78011.0,2.0,1.0,Néstor Fabián Pitana (ARG),Hernán Maidana (ARG),Juan Pablo Belatti (ARG)
+2022,Sun Nov 20 2022 - 19:00 UTC+3,Group A,Al Bayt Stadium,Al Khor,Qatar,0,2,Ecuador,,67372.0,0.0,2.0,Daniele Orsato (ITA),Ciro Carbone (ITA),Alessandro Giallatini (ITA)
+2022,Mon Nov 21 2022 - 19:00 UTC+3,Group A,Al Thumama Stadium,Doha,Senegal,0,2,Netherlands,,41721.0,0.0,0.0,Wilton SAMPAIO (BRA),Bruno Boschilia (BRA),Bruno PIRES (BRA)
+2022,Fri Nov 25 2022 - 16:00 UTC+3,Group A,Al Thumama Stadium,Doha,Qatar,1,3,Senegal,,41797.0,0.0,1.0,Antonio MATEU (ESP),Pau Cebrián Devis (ESP),Roberto Díaz Pérez Del Palomar (ESP)
+2022,Fri Nov 25 2022 - 19:00 UTC+3,Group A,Khalifa International Stadium,Ar-Rayyan,Netherlands,1,1,Ecuador,,44833.0,1.0,0.0,Mustapha Ghorbal (ALG),Mokrane Gourari (ALG),Abdelhak ETCHIALI (ALG)
+2022,Tue Nov 29 2022 - 18:00 UTC+3,Group A,Al Bayt Stadium,Al Khor,Netherlands,2,0,Qatar,,66784.0,,,Bakary GASSAMA (GAM),Elvis NOUPUE (CMR),Mahmoud Ahmed Kamel Abo El Regal (EGY)
+2022,Tue Nov 29 2022 - 18:00 UTC+3,Group A,Khalifa International Stadium,Ar-Rayyan,Ecuador,1,2,Senegal,,44569.0,0.0,1.0,Clément Turpin (FRA),Nicolas Danos (FRA),Cyril Gringore (FRA)
+2022,Mon Nov 21 2022 - 16:00 UTC+3,Group B,Khalifa International Stadium,Ar-Rayyan,England,6,2,Iran,,45334.0,3.0,0.0,Raphael Claus (BRA),Rodrigo Figueiredo Henrique Correa (BRA),Danilo SIMON (BRA)
+2022,Mon Nov 21 2022 - 22:00 UTC+3,Group B,Ahmad Bin Ali Stadium,Ar-Rayyan,USA,1,1,Wales,,43418.0,1.0,0.0,Abdulrahman AL JASSIM (QAT),Taleb AL MARRI (QAT),Saoud AL MAQALEH (QAT)
+2022,Fri Nov 25 2022 - 13:00 UTC+3,Group B,Ahmad Bin Ali Stadium,Ar-Rayyan,Wales,0,2,Iran,,40875.0,0.0,0.0,Mario Alberto Escobar Toca (GUA),Caleb Wales (TRI),Juan Carlos Mora (CRC)
+2022,Fri Nov 25 2022 - 22:00 UTC+3,Group B,Al Bayt Stadium,Al Khor,England,0,0,USA,,68463.0,,,Jesús Valenzuela Sáez (VEN),Jorge Urrego Martínez (VEN),Tulio Moreno (VEN)
+2022,Tue Nov 29 2022 - 22:00 UTC+3,Group B,Ahmad Bin Ali Stadium,Ar-Rayyan,Wales,0,3,England,,44297.0,0.0,0.0,Slavko VINCIC (SVN),Tomaz KLANCNIK (SVN),Andraz KOVACIC (SVN)
+2022,Tue Nov 29 2022 - 22:00 UTC+3,Group B,Al Thumama Stadium,Doha,Iran,0,1,USA,,42127.0,0.0,1.0,Antonio MATEU (ESP),Pau Cebrián Devis (ESP),Roberto Díaz Pérez Del Palomar (ESP)
+2022,Tue Nov 22 2022 - 13:00 UTC+3,Group C,Lusail Stadium,Al Daayen,Argentina,1,2,Saudi Arabia,,88012.0,1.0,0.0,Slavko VINCIC (SVN),Tomaz KLANCNIK (SVN),Andraz KOVACIC (SVN)
+2022,Tue Nov 22 2022 - 19:00 UTC+3,Group C,Stadium 974,Doha,Mexico,0,0,Poland,,39369.0,,,Chris Beath (AUS),Anton Schetinin (AUS),Ashley Beecham (AUS)
+2022,Sat Nov 26 2022 - 16:00 UTC+3,Group C,Education City Stadium,Doha,Poland,2,0,Saudi Arabia,,44259.0,1.0,0.0,Wilton SAMPAIO (BRA),Bruno Boschilia (BRA),Bruno PIRES (BRA)
+2022,Sat Nov 26 2022 - 22:00 UTC+3,Group C,Lusail Stadium,Al Daayen,Argentina,2,0,Mexico,,88966.0,0.0,0.0,Daniele Orsato (ITA),Ciro Carbone (ITA),Alessandro Giallatini (ITA)
+2022,Wed Nov 30 2022 - 22:00 UTC+3,Group C,Stadium 974,Doha,Poland,0,2,Argentina,,44089.0,0.0,0.0,Danny Desmond Makkelie (NED),Hessel Steegstra (NED),Jan de Vries (NED)
+2022,Wed Nov 30 2022 - 22:00 UTC+3,Group C,Lusail Stadium,Al Daayen,Saudi Arabia,1,2,Mexico,,84985.0,0.0,0.0,Michael Oliver (ENG),Stuart Burt (ENG),Simon Bennett (ENG)
+2022,Tue Nov 22 2022 - 16:00 UTC+3,Group D,Education City Stadium,Doha,Denmark,0,0,Tunisia,,42925.0,,,César Arturo Ramos Palazuelos (MEX),Alberto Morín Méndez (MEX),Miguel Ángel Hernández Paredes (MEX)
+2022,Tue Nov 22 2022 - 22:00 UTC+3,Group D,Al Janoub Stadium,Al Wakrah,France,4,1,Australia,,40875.0,2.0,1.0,Victor GOMES (RSA),Zakhele SIWELA (RSA),Souru PHATSOANE (LES)
+2022,Sat Nov 26 2022 - 13:00 UTC+3,Group D,Al Janoub Stadium,Al Wakrah,Tunisia,0,1,Australia,,41823.0,0.0,1.0,Daniel SIEBERT (GER),Jan Seidel (GER),Rafael FOLTYN (GER)
+2022,Sat Nov 26 2022 - 19:00 UTC+3,Group D,Stadium 974,Doha,France,2,1,Denmark,,42860.0,0.0,0.0,Szymon MARCINIAK (POL),Pawel SOKOLNICKI (POL),Tomasz LISTKIEWICZ (POL)
+2022,Wed Nov 30 2022 - 18:00 UTC+3,Group D,Al Janoub Stadium,Al Wakrah,Australia,1,0,Denmark,,41232.0,0.0,0.0,Mustapha Ghorbal (ALG),Mokrane Gourari (ALG),Abdelhak ETCHIALI (ALG)
+2022,Wed Nov 30 2022 - 18:00 UTC+3,Group D,Education City Stadium,Doha,Tunisia,1,0,France,,43627.0,,,Matthew CONGER (NZL),Tevita MAKASINI (TGA),Mark RULE (NZL)
+2022,Wed Nov 23 2022 - 16:00 UTC+3,Group E,Khalifa International Stadium,Ar-Rayyan,Germany,1,2,Japan,,42608.0,1.0,0.0,Ivan Arcides Barton Cisneros (SLV),David Jonathan Morán Santos (SLV),Zachari Zeegelaar (SUR)
+2022,Wed Nov 23 2022 - 19:00 UTC+3,Group E,Al Thumama Stadium,Doha,Spain,7,0,Costa Rica,,40013.0,3.0,0.0,Mohammed ABDULLA (UAE),Mohamed AL HAMMADI (UAE),Hasan AL MAHRI (UAE)
+2022,Sun Nov 27 2022 - 13:00 UTC+3,Group E,Ahmad Bin Ali Stadium,Ar-Rayyan,Japan,0,1,Costa Rica,,41479.0,0.0,0.0,Michael Oliver (ENG),Stuart Burt (ENG),Simon Bennett (ENG)
+2022,Sun Nov 27 2022 - 22:00 UTC+3,Group E,Al Bayt Stadium,Al Khor,Spain,1,1,Germany,,68895.0,0.0,0.0,Danny Desmond Makkelie (NED),Hessel Steegstra (NED),Jan de Vries (NED)
+2022,Thu Dec 1 2022 - 22:00 UTC+3,Group E,Khalifa International Stadium,Ar-Rayyan,Japan,2,1,Spain,,44851.0,0.0,0.0,Victor GOMES (RSA),Zakhele SIWELA (RSA),Souru PHATSOANE (LES)
+2022,Thu Dec 1 2022 - 22:00 UTC+3,Group E,Al Bayt Stadium,Al Khor,Costa Rica,2,4,Germany,,67054.0,,,Stéphanie Frappart (FRA),Neuza Ines Back (BRA),Karen DIAZ MEDINA (MEX)
+2022,Wed Nov 23 2022 - 13:00 UTC+3,Group F,Al Bayt Stadium,Al Khor,Morocco,0,0,Croatia,,59407.0,,,Fernando Andrés Rapallini (ARG),Juan Pablo Belatti (ARG),Diego Yamil Bonfá (ARG)
+2022,Wed Nov 23 2022 - 22:00 UTC+3,Group F,Ahmad Bin Ali Stadium,Ar-Rayyan,Belgium,1,0,Canada,,40432.0,1.0,0.0,Janny SIKAZWE (ZAM),Jerson DOS SANTOS (ANG),Arsenio MARINGULE (MOZ)
+2022,Sun Nov 27 2022 - 16:00 UTC+3,Group F,Al Thumama Stadium,Doha,Belgium,0,2,Morocco,,43738.0,0.0,0.0,César Arturo Ramos Palazuelos (MEX),Alberto Morín Méndez (MEX),Miguel Ángel Hernández Paredes (MEX)
+2022,Sun Nov 27 2022 - 19:00 UTC+3,Group F,Khalifa International Stadium,Ar-Rayyan,Croatia,4,1,Canada,,44374.0,2.0,1.0,Andres Matias MATONTE CABRERA (URU),Nicolás Taran (URU),Martin SOPPI (URU)
+2022,Thu Dec 1 2022 - 18:00 UTC+3,Group F,Ahmad Bin Ali Stadium,Ar-Rayyan,Croatia,0,0,Belgium,,43984.0,,,Anthony Taylor (ENG),Gary Beswick (ENG),Adam Nunn (ENG)
+2022,Thu Dec 1 2022 - 18:00 UTC+3,Group F,Al Thumama Stadium,Doha,Canada,1,2,Morocco,,43102.0,1.0,2.0,Raphael Claus (BRA),Rodrigo Figueiredo Henrique Correa (BRA),Danilo SIMON (BRA)
+2022,Thu Nov 24 2022 - 13:00 UTC+3,Group G,Al Janoub Stadium,Al Wakrah,Switzerland,1,0,Cameroon,,39089.0,0.0,0.0,Facundo TELLO (ARG),Ezequiel BRAILOVSKY (ARG),Gabriel CHADE (ARG)
+2022,Thu Nov 24 2022 - 22:00 UTC+3,Group G,Lusail Stadium,Al Daayen,Brazil,2,0,Serbia,,88103.0,0.0,0.0,Alireza FAGHANI (IRN),Mohammadreza MANSOURI (IRN),Mohammadreza ABOLFAZLI (IRN)
+2022,Mon Nov 28 2022 - 13:00 UTC+3,Group G,Al Janoub Stadium,Al Wakrah,Cameroon,3,3,Serbia,,39789.0,1.0,2.0,Mohammed ABDULLA (UAE),Mohamed AL HAMMADI (UAE),Hasan AL MAHRI (UAE)
+2022,Mon Nov 28 2022 - 19:00 UTC+3,Group G,Stadium 974,Doha,Brazil,1,0,Switzerland,,43649.0,0.0,0.0,Ivan Arcides Barton Cisneros (SLV),David Jonathan Morán Santos (SLV),Zachari Zeegelaar (SUR)
+2022,Fri Dec 2 2022 - 22:00 UTC+3,Group G,Stadium 974,Doha,Serbia,2,3,Switzerland,,41378.0,2.0,1.0,Fernando Andrés Rapallini (ARG),Juan Pablo Belatti (ARG),Diego Yamil Bonfá (ARG)
+2022,Fri Dec 2 2022 - 22:00 UTC+3,Group G,Lusail Stadium,Al Daayen,Cameroon,1,0,Brazil,,85986.0,0.0,0.0,Ismail Elfath (USA),Corey Parker (USA),Kyle Atkins (USA)
+2022,Thu Nov 24 2022 - 16:00 UTC+3,Group H,Education City Stadium,Doha,Uruguay,0,0,South Korea,,41663.0,,,Clément Turpin (FRA),Nicolas Danos (FRA),Cyril Gringore (FRA)
+2022,Thu Nov 24 2022 - 19:00 UTC+3,Group H,Stadium 974,Doha,Portugal,3,2,Ghana,,42662.0,0.0,0.0,Ismail Elfath (USA),Kyle Atkins (USA),Corey Parker (USA)
+2022,Mon Nov 28 2022 - 16:00 UTC+3,Group H,Education City Stadium,Doha,South Korea,2,3,Ghana,,43983.0,0.0,2.0,Anthony Taylor (ENG),Gary Beswick (ENG),Adam Nunn (ENG)
+2022,Mon Nov 28 2022 - 22:00 UTC+3,Group H,Lusail Stadium,Al Daayen,Portugal,2,0,Uruguay,,88668.0,0.0,0.0,Alireza FAGHANI (IRN),Mohammadreza MANSOURI (IRN),Mohammadreza ABOLFAZLI (IRN)
+2022,Fri Dec 2 2022 - 18:00 UTC+3,Group H,Al Janoub Stadium,Al Wakrah,Ghana,0,2,Uruguay,,43443.0,,,Daniel SIEBERT (GER),Jan Seidel (GER),Rafael FOLTYN (GER)
+2022,Fri Dec 2 2022 - 18:00 UTC+3,Group H,Education City Stadium,Doha,South Korea,2,1,Portugal,,44097.0,,,Facundo TELLO (ARG),Ezequiel BRAILOVSKY (ARG),Gabriel CHADE (ARG)
+2022,Sat Dec 3 2022 - 18:00 UTC+3,Round of 16,Khalifa International Stadium,Ar-Rayyan,Netherlands,3,1,USA,,44846.0,2.0,0.0,Wilton SAMPAIO (BRA),Bruno Boschilia (BRA),Bruno PIRES (BRA)
+2022,Sat Dec 3 2022 - 22:00 UTC+3,Round of 16,Ahmad Bin Ali Stadium,Ar-Rayyan,Argentina,2,1,Australia,,45032.0,1.0,0.0,Szymon MARCINIAK (POL),Pawel SOKOLNICKI (POL),Tomasz LISTKIEWICZ (POL)
+2022,Sun Dec 4 2022 - 18:00 UTC+3,Round of 16,Al Thumama Stadium,Doha,France,3,1,Poland,,40989.0,1.0,0.0,Jesús Valenzuela Sáez (VEN),Jorge Urrego Martínez (VEN),Tulio Moreno (VEN)
+2022,Sun Dec 4 2022 - 22:00 UTC+3,Round of 16,Al Bayt Stadium,Al Khor,England,3,0,Senegal,,65985.0,2.0,0.0,Ivan Arcides Barton Cisneros (SLV),David Jonathan Morán Santos (SLV),Katie Nesbitt (USA)
+2022,Mon Dec 5 2022 - 18:00 UTC+3,Round of 16,Al Janoub Stadium,Al Wakrah,Japan,1,1,Croatia,"a.e.t., 1-3 pen.",42523.0,,,Ismail Elfath (USA),Corey Parker (USA),Kyle Atkins (USA)
+2022,Mon Dec 5 2022 - 22:00 UTC+3,Round of 16,Stadium 974,Doha,Brazil,4,1,South Korea,,43847.0,4.0,0.0,Clément Turpin (FRA),Nicolas Danos (FRA),Cyril Gringore (FRA)
+2022,Tue Dec 6 2022 - 18:00 UTC+3,Round of 16,Education City Stadium,Doha,Morocco,0,0,Spain,"a.e.t., 3-0 pen.",44667.0,,,Fernando Andrés Rapallini (ARG),Juan Pablo Belatti (ARG),Diego Yamil Bonfá (ARG)
+2022,Tue Dec 6 2022 - 22:00 UTC+3,Round of 16,Lusail Stadium,Al Daayen,Portugal,6,1,Switzerland,,83720.0,2.0,0.0,César Arturo Ramos Palazuelos (MEX),Alberto Morín Méndez (MEX),Miguel Ángel Hernández Paredes (MEX)
+2022,Fri Dec 9 2022 - 18:00 UTC+3,Quarter-final,Education City Stadium,Doha,Croatia,1,1,Brazil,"a.e.t., 4-2 pen.",43893.0,,,Michael Oliver (ENG),Stuart Burt (ENG),Gary Beswick (ENG)
+2022,Fri Dec 9 2022 - 22:00 UTC+3,Quarter-final,Lusail Stadium,Al Daayen,Netherlands,2,2,Argentina,"a.e.t., 3-4 pen.",88235.0,,,Antonio MATEU (ESP),Pau Cebrián Devis (ESP),Roberto Díaz Pérez Del Palomar (ESP)
+2022,Sat Dec 10 2022 - 18:00 UTC+3,Quarter-final,Al Thumama Stadium,Doha,Morocco,1,0,Portugal,,44198.0,1.0,0.0,Facundo TELLO (ARG),Ezequiel BRAILOVSKY (ARG),Gabriel CHADE (ARG)
+2022,Sat Dec 10 2022 - 22:00 UTC+3,Quarter-final,Al Bayt Stadium,Al Khor,England,1,2,France,,68895.0,0.0,1.0,Wilton SAMPAIO (BRA),Bruno Boschilia (BRA),Bruno PIRES (BRA)
+2022,Tue Dec 13 2022 - 22:00 UTC+3,Semi-final,Lusail Stadium,Al Daayen,Argentina,3,0,Croatia,,88966.0,2.0,0.0,Daniele Orsato (ITA),Ciro Carbone (ITA),Alessandro Giallatini (ITA)
+2022,Wed Dec 14 2022 - 22:00 UTC+3,Semi-final,Al Bayt Stadium,Al Khor,France,2,0,Morocco,,68294.0,1.0,0.0,César Arturo Ramos Palazuelos (MEX),Alberto Morín Méndez (MEX),Miguel Ángel Hernández Paredes (MEX)
+2022,Sat Dec 17 2022 - 18:00 UTC+3,Play-off for third place,Khalifa International Stadium,Ar-Rayyan,Croatia,2,1,Morocco,,44137.0,2.0,1.0,Abdulrahman AL JASSIM (QAT),Taleb AL MARRI (QAT),Saoud AL MAQALEH (QAT)
+2022,Sun Dec 18 2022 - 18:00 UTC+3,Final,Lusail Stadium,Al Daayen,Argentina,3,3,France,"a.e.t., 4-2 pen.",88966.0,,,Szymon MARCINIAK (POL),Pawel SOKOLNICKI (POL),Tomasz LISTKIEWICZ (POL)
+2026,Thu Jun 11 2026 - 13:00 UTC-6,Group A,Mexico City Stadium,Mexico City,Mexico,2,0,South Africa,,80824.0,1.0,0.0,Wilton SAMPAIO (BRA),,
+2026,Thu Jun 11 2026 - 20:00 UTC-6,Group A,Guadalajara Stadium,Guadalajara,South Korea,2,1,Czech Republic,,44985.0,0.0,0.0,Amin Mohamed Omar (EGY),,
+2026,Thu Jun 18 2026 - 12:00 UTC-4,Group A,Atlanta Stadium,Atlanta,Czech Republic,1,1,South Africa,,67442.0,1.0,0.0,Tori Penso (USA),,
+2026,Thu Jun 18 2026 - 19:00 UTC-6,Group A,Guadalajara Stadium,Guadalajara,Mexico,1,0,South Korea,,45522.0,0.0,0.0,Gustavo Tejera (URU),,
+2026,Wed Jun 24 2026 - 19:00 UTC-6,Group A,Monterrey Stadium,Monterrey,South Africa,1,0,South Korea,,51243.0,0.0,0.0,Facundo TELLO (ARG),,
+2026,Wed Jun 24 2026 - 19:00 UTC-6,Group A,Mexico City Stadium,Mexico City,Czech Republic,0,3,Mexico,,80824.0,0.0,0.0,Yael Falcón Pérez (ARG),,
+2026,Fri Jun 12 2026 - 15:00 UTC-4,Group B,Toronto Stadium,Toronto,Canada,1,1,Bosnia and Herzegovina,,43002.0,0.0,1.0,Facundo TELLO (ARG),,
+2026,Sat Jun 13 2026 - 12:00 UTC-7,Group B,San Francisco Bay Area Stadium,San Francisco Bay Area,Qatar,1,1,Switzerland,,67966.0,0.0,1.0,Said MARTINEZ (HON),,
+2026,Thu Jun 18 2026 - 12:00 UTC-7,Group B,Los Angeles Stadium,Los Angeles,Switzerland,4,1,Bosnia and Herzegovina,,70026.0,0.0,0.0,João Pedro Silva Pinheiro (POR),,
+2026,Thu Jun 18 2026 - 15:00 UTC-7,Group B,BC Place Vancouver,Vancouver,Canada,6,0,Qatar,,52497.0,3.0,0.0,Cristián Marcelo Garay Reyes (CHI),,
+2026,Wed Jun 24 2026 - 12:00 UTC-7,Group B,Seattle Stadium,Seattle,Bosnia and Herzegovina,3,1,Qatar,,66925.0,2.0,1.0,Jesús Valenzuela Sáez (VEN),,
+2026,Wed Jun 24 2026 - 12:00 UTC-7,Group B,BC Place Vancouver,Vancouver,Switzerland,2,1,Canada,,52497.0,0.0,0.0,Ramon ABATTI (BRA),,
+2026,Sat Jun 13 2026 - 18:00 UTC-4,Group C,New York/New Jersey Stadium,New Jersey,Brazil,1,1,Morocco,,80663.0,1.0,1.0,Slavko VINCIC (SVN),,
+2026,Sat Jun 13 2026 - 21:00 UTC-4,Group C,Boston Stadium,Boston,Haiti,0,1,Scotland,,64146.0,0.0,1.0,Mustapha Ghorbal (ALG),,
+2026,Fri Jun 19 2026 - 18:00 UTC-4,Group C,Boston Stadium,Boston,Scotland,0,1,Morocco,,64146.0,0.0,1.0,Ilgiz Tantashev (UZB),,
+2026,Fri Jun 19 2026 - 20:30 UTC-4,Group C,Philadelphia Stadium,Philadelphia,Brazil,3,0,Haiti,,68324.0,3.0,0.0,Alejandro José Hernández Hernández (ESP),,
+2026,Wed Jun 24 2026 - 18:00 UTC-4,Group C,Atlanta Stadium,Atlanta,Morocco,4,2,Haiti,,68239.0,2.0,2.0,Danny Desmond Makkelie (NED),,
+2026,Wed Jun 24 2026 - 18:00 UTC-4,Group C,Miami Stadium,Miami,Scotland,0,3,Brazil,,64478.0,0.0,2.0,César Arturo Ramos Palazuelos (MEX),,
+2026,Fri Jun 12 2026 - 18:00 UTC-7,Group D,Los Angeles Stadium,Los Angeles,USA,4,1,Paraguay,,70492.0,3.0,0.0,Danny Desmond Makkelie (NED),,
+2026,Sat Jun 13 2026 - 21:00 UTC-7,Group D,BC Place Vancouver,Vancouver,Australia,2,0,Turkey,,52497.0,1.0,0.0,Jesús Valenzuela Sáez (VEN),,
+2026,Fri Jun 19 2026 - 12:00 UTC-7,Group D,Seattle Stadium,Seattle,USA,2,0,Australia,,66925.0,2.0,0.0,Felix Zwayer (GER),,
+2026,Fri Jun 19 2026 - 20:00 UTC-7,Group D,San Francisco Bay Area Stadium,San Francisco Bay Area,Turkey,0,1,Paraguay,,68827.0,0.0,1.0,Ivan Arcides Barton Cisneros (SLV),,
+2026,Thu Jun 25 2026 - 19:00 UTC-7,Group D,San Francisco Bay Area Stadium,San Francisco Bay Area,Paraguay,0,0,Australia,,68827.0,0.0,0.0,Clément Turpin (FRA),,
+2026,Thu Jun 25 2026 - 19:00 UTC-7,Group D,Los Angeles Stadium,Los Angeles,Turkey,3,2,USA,,70492.0,2.0,1.0,Mustapha Ghorbal (ALG),,
+2026,Sun Jun 14 2026 - 12:00 UTC-5,Group E,Houston Stadium,Houston,Germany,7,1,Curaçao,,68021.0,3.0,1.0,Jalal Jayed (MAR),,
+2026,Sun Jun 14 2026 - 19:00 UTC-4,Group E,Philadelphia Stadium,Philadelphia,Côte d'Ivoire,1,0,Ecuador,,68274.0,0.0,0.0,François Letexier (FRA),,
+2026,Sat Jun 20 2026 - 16:00 UTC-4,Group E,Toronto Stadium,Toronto,Germany,2,1,Côte d'Ivoire,,43036.0,0.0,1.0,Juan Gabriel Benítez (PAR),,
+2026,Sat Jun 20 2026 - 19:00 UTC-5,Group E,Kansas City Stadium,Kansas City,Ecuador,0,0,Curaçao,,68598.0,0.0,0.0,Ning Ma (CHN),,
+2026,Thu Jun 25 2026 - 16:00 UTC-4,Group E,Philadelphia Stadium,Philadelphia,Curaçao,0,2,Côte d'Ivoire,,68324.0,0.0,1.0,Glenn Nyberg (SWE),,
+2026,Thu Jun 25 2026 - 16:00 UTC-4,Group E,New York/New Jersey Stadium,New Jersey,Ecuador,2,1,Germany,,80663.0,1.0,1.0,Tori Penso (USA),,
+2026,Sun Jun 14 2026 - 15:00 UTC-5,Group F,Dallas Stadium,Dallas,Netherlands,2,2,Japan,,69285.0,0.0,0.0,Ismail Elfath (USA),,
+2026,Sun Jun 14 2026 - 20:00 UTC-6,Group F,Monterrey Stadium,Monterrey,Sweden,5,1,Tunisia,,50987.0,2.0,1.0,Yael Falcón Pérez (ARG),,
+2026,Sat Jun 20 2026 - 12:00 UTC-5,Group F,Houston Stadium,Houston,Netherlands,5,1,Sweden,,68777.0,2.0,0.0,Michael Oliver (ENG),,
+2026,Sat Jun 20 2026 - 22:00 UTC-6,Group F,Monterrey Stadium,Monterrey,Tunisia,0,4,Japan,,51243.0,0.0,2.0,Istvan Kovacs (ROU),,
+2026,Thu Jun 25 2026 - 18:00 UTC-5,Group F,Kansas City Stadium,Kansas City,Tunisia,1,3,Netherlands,,68391.0,0.0,2.0,Katia Itzel García (MEX),,
+2026,Thu Jun 25 2026 - 18:00 UTC-5,Group F,Dallas Stadium,Dallas,Japan,1,1,Sweden,,70137.0,0.0,0.0,Ivan Arcides Barton Cisneros (SLV),,
+2026,Mon Jun 15 2026 - 12:00 UTC-7,Group G,Seattle Stadium,Seattle,Belgium,1,1,Egypt,,66775.0,0.0,1.0,Ramon ABATTI (BRA),,
+2026,Mon Jun 15 2026 - 18:00 UTC-7,Group G,Los Angeles Stadium,Los Angeles,Iran,2,2,New Zealand,,70108.0,1.0,1.0,César Arturo Ramos Palazuelos (MEX),,
+2026,Sun Jun 21 2026 - 12:00 UTC-7,Group G,Los Angeles Stadium,Los Angeles,Belgium,0,0,Iran,,70317.0,0.0,0.0,Darío Herrera (ARG),,
+2026,Sun Jun 21 2026 - 18:00 UTC-7,Group G,BC Place Vancouver,Vancouver,New Zealand,1,3,Egypt,,52497.0,1.0,0.0,Omar Mohamed Al Ali (UAE),,
+2026,Fri Jun 26 2026 - 20:00 UTC-7,Group G,BC Place Vancouver,Vancouver,New Zealand,1,5,Belgium,,52497.0,0.0,1.0,Adham Mohammad Tumah Makhadmeh (JOR),,
+2026,Fri Jun 26 2026 - 20:00 UTC-7,Group G,Seattle Stadium,Seattle,Egypt,1,1,Iran,,66925.0,1.0,1.0,Szymon MARCINIAK (POL),,
+2026,Mon Jun 15 2026 - 12:00 UTC-4,Group H,Atlanta Stadium,Atlanta,Spain,0,0,Cabo Verde,,67640.0,0.0,0.0,Adham Mohammad Tumah Makhadmeh (JOR),,
+2026,Mon Jun 15 2026 - 18:00 UTC-4,Group H,Miami Stadium,Miami,Saudi Arabia,1,1,Uruguay,,62764.0,1.0,0.0,Maurizio Mariani (ITA),,
+2026,Sun Jun 21 2026 - 12:00 UTC-4,Group H,Atlanta Stadium,Atlanta,Spain,4,0,Saudi Arabia,,68239.0,3.0,0.0,Raphael Claus (BRA),,
+2026,Sun Jun 21 2026 - 18:00 UTC-4,Group H,Miami Stadium,Miami,Uruguay,2,2,Cabo Verde,,64003.0,2.0,1.0,Espen Eskås (NOR),,
+2026,Fri Jun 26 2026 - 18:00 UTC-6,Group H,Guadalajara Stadium,Guadalajara,Uruguay,0,1,Spain,,45065.0,0.0,1.0,Ismail Elfath (USA),,
+2026,Fri Jun 26 2026 - 19:00 UTC-5,Group H,Houston Stadium,Houston,Cabo Verde,0,0,Saudi Arabia,,68278.0,0.0,0.0,François Letexier (FRA),,
+2026,Tue Jun 16 2026 - 15:00 UTC-4,Group I,New York/New Jersey Stadium,New Jersey,France,3,1,Senegal,,80545.0,0.0,0.0,Alireza FAGHANI (AUS),,
+2026,Tue Jun 16 2026 - 18:00 UTC-4,Group I,Boston Stadium,Boston,Iraq,1,4,Norway,,63106.0,1.0,2.0,Pierre Ghislain Atcho (GAB),,
+2026,Mon Jun 22 2026 - 17:00 UTC-4,Group I,Philadelphia Stadium,Philadelphia,France,3,0,Iraq,,68324.0,1.0,0.0,Drew Fischer (CAN),,
+2026,Mon Jun 22 2026 - 20:00 UTC-4,Group I,New York/New Jersey Stadium,New Jersey,Norway,3,2,Senegal,,80663.0,1.0,0.0,Wilton SAMPAIO (BRA),,
+2026,Fri Jun 26 2026 - 15:00 UTC-4,Group I,Toronto Stadium,Toronto,Senegal,5,0,Iraq,,43036.0,1.0,0.0,Anthony Taylor (ENG),,
+2026,Fri Jun 26 2026 - 15:00 UTC-4,Group I,Boston Stadium,Boston,Norway,1,4,France,,64146.0,1.0,3.0,Michael Oliver (ENG),,
+2026,Tue Jun 16 2026 - 20:00 UTC-5,Group J,Kansas City Stadium,Kansas City,Argentina,3,0,Algeria,,69045.0,1.0,0.0,Szymon MARCINIAK (POL),,
+2026,Tue Jun 16 2026 - 21:00 UTC-7,Group J,San Francisco Bay Area Stadium,San Francisco Bay Area,Austria,3,1,Jordan,,68527.0,1.0,0.0,Dahane BEIDA (MTN),,
+2026,Mon Jun 22 2026 - 12:00 UTC-5,Group J,Dallas Stadium,Dallas,Argentina,2,0,Austria,,70649.0,1.0,0.0,Amin Mohamed Omar (EGY),,
+2026,Mon Jun 22 2026 - 20:00 UTC-7,Group J,San Francisco Bay Area Stadium,San Francisco Bay Area,Jordan,1,2,Algeria,,68371.0,1.0,0.0,Slavko VINCIC (SVN),,
+2026,Sat Jun 27 2026 - 21:00 UTC-5,Group J,Kansas City Stadium,Kansas City,Algeria,3,3,Austria,,69045.0,1.0,1.0,Ilgiz Tantashev (UZB),,
+2026,Sat Jun 27 2026 - 21:00 UTC-5,Group J,Dallas Stadium,Dallas,Jordan,1,3,Argentina,,70649.0,0.0,2.0,Istvan Kovacs (ROU),,
+2026,Wed Jun 17 2026 - 12:00 UTC-5,Group K,Houston Stadium,Houston,Portugal,1,1,Congo DR,,68777.0,1.0,1.0,Abdulrahman AL JASSIM (QAT),,
+2026,Wed Jun 17 2026 - 20:00 UTC-6,Group K,Mexico City Stadium,Mexico City,Uzbekistan,1,3,Colombia,,80824.0,0.0,1.0,Anthony Taylor (ENG),,
+2026,Tue Jun 23 2026 - 12:00 UTC-5,Group K,Houston Stadium,Houston,Portugal,5,0,Uzbekistan,,68777.0,3.0,0.0,Jalal Jayed (MAR),,
+2026,Tue Jun 23 2026 - 20:00 UTC-6,Group K,Guadalajara Stadium,Guadalajara,Colombia,1,0,Congo DR,,45358.0,0.0,0.0,Maurizio Mariani (ITA),,
+2026,Sat Jun 27 2026 - 19:30 UTC-4,Group K,Atlanta Stadium,Atlanta,Congo DR,3,1,Uzbekistan,,68239.0,0.0,1.0,Felix Zwayer (GER),,
+2026,Sat Jun 27 2026 - 19:30 UTC-4,Group K,Miami Stadium,Miami,Colombia,0,0,Portugal,,64478.0,0.0,0.0,Alireza FAGHANI (AUS),,
+2026,Wed Jun 17 2026 - 15:00 UTC-5,Group L,Dallas Stadium,Dallas,England,4,2,Croatia,,70389.0,2.0,2.0,Clément Turpin (FRA),,
+2026,Wed Jun 17 2026 - 19:00 UTC-4,Group L,Toronto Stadium,Toronto,Ghana,1,0,Panama,,42942.0,0.0,0.0,Glenn Nyberg (SWE),,
+2026,Tue Jun 23 2026 - 16:00 UTC-4,Group L,Boston Stadium,Boston,England,0,0,Ghana,,63983.0,0.0,0.0,Said MARTINEZ (HON),,
+2026,Tue Jun 23 2026 - 19:00 UTC-4,Group L,Toronto Stadium,Toronto,Panama,0,1,Croatia,,43036.0,0.0,0.0,Pierre Ghislain Atcho (GAB),,
+2026,Sat Jun 27 2026 - 17:00 UTC-4,Group L,New York/New Jersey Stadium,New Jersey,Panama,0,2,England,,80663.0,0.0,0.0,Abdulrahman AL JASSIM (QAT),,
+2026,Sat Jun 27 2026 - 17:00 UTC-4,Group L,Philadelphia Stadium,Philadelphia,Croatia,2,1,Ghana,,68324.0,1.0,0.0,Drew Fischer (CAN),,
+2026,Sun Jun 28 2026 - 12:00 UTC-7,Round of 32,Los Angeles Stadium,Los Angeles,South Africa,0,1,Canada,,69237.0,0.0,0.0,João Pedro Silva Pinheiro (POR),,
+2026,Mon Jun 29 2026 - 12:00 UTC-5,Round of 32,Houston Stadium,Houston,Brazil,2,1,Japan,,68777.0,0.0,1.0,Maurizio Mariani (ITA),,
+2026,Mon Jun 29 2026 - 16:30 UTC-4,Round of 32,Boston Stadium,Boston,Germany,1,1,Paraguay,"a.e.t. (1-1, 0-1), 3-4 pen.",63945.0,,,Jalal Jayed (MAR),,
+2026,Mon Jun 29 2026 - 19:00 UTC-6,Round of 32,Monterrey Stadium,Monterrey,Netherlands,1,1,Morocco,"a.e.t. (1-1, 0-0), 2-3 pen.",51243.0,,,Wilton SAMPAIO (BRA),,
+2026,Tue Jun 30 2026 - 12:00 UTC-5,Round of 32,Dallas Stadium,Dallas,Côte d'Ivoire,1,2,Norway,,69665.0,0.0,1.0,Jesús Valenzuela Sáez (VEN),,
+2026,Tue Jun 30 2026 - 17:00 UTC-4,Round of 32,New York/New Jersey Stadium,New Jersey,France,3,0,Sweden,,80663.0,1.0,0.0,Danny Desmond Makkelie (NED),,
+2026,Tue Jun 30 2026 - 20:00 UTC-6,Round of 32,Mexico City Stadium,Mexico City,Mexico,2,0,Ecuador,,80824.0,2.0,0.0,Slavko VINCIC (SVN),,
+2026,Wed Jul 1 2026 - 12:00 UTC-4,Round of 32,Atlanta Stadium,Atlanta,England,2,1,Congo DR,,68239.0,0.0,1.0,Adham Mohammad Tumah Makhadmeh (JOR),,
+2026,Wed Jul 1 2026 - 13:00 UTC-7,Round of 32,Seattle Stadium,Seattle,Belgium,3,2,Senegal,"a.e.t. (2-2, 0-1)",66925.0,,,Said MARTINEZ (HON),,
+2026,Wed Jul 1 2026 - 17:00 UTC-7,Round of 32,San Francisco Bay Area Stadium,San Francisco Bay Area,USA,2,0,Bosnia and Herzegovina,,68827.0,1.0,0.0,Raphael Claus (BRA),,
+2026,Thu Jul 2 2026 - 12:00 UTC-7,Round of 32,Los Angeles Stadium,Los Angeles,Spain,3,0,Austria,,70492.0,1.0,0.0,Glenn Nyberg (SWE),,
+2026,Thu Jul 2 2026 - 19:00 UTC-4,Round of 32,Toronto Stadium,Toronto,Portugal,2,1,Croatia,,43036.0,0.0,0.0,Espen Eskås (NOR),,
+2026,Thu Jul 2 2026 - 20:00 UTC-7,Round of 32,BC Place Vancouver,Vancouver,Switzerland,2,0,Algeria,,52497.0,1.0,0.0,Yael Falcón Pérez (ARG),,
+2026,Fri Jul 3 2026 - 13:00 UTC-5,Round of 32,Dallas Stadium,Dallas,Australia,1,1,Egypt,"a.e.t. (1-1, 0-1), 2-4 pen.",70244.0,,,Gustavo Tejera (URU),,
+2026,Fri Jul 3 2026 - 18:00 UTC-4,Round of 32,Miami Stadium,Miami,Argentina,3,2,Cabo Verde,"a.e.t. (1-1, 1-0)",64478.0,,,Drew Fischer (CAN),,
+2026,Fri Jul 3 2026 - 20:30 UTC-5,Round of 32,Kansas City Stadium,Kansas City,Colombia,1,0,Ghana,,69045.0,1.0,0.0,Clément Turpin (FRA),,
+2026,Sat Jul 4 2026 - 12:00 UTC-5,Round of 16,Houston Stadium,Houston,Canada,0,3,Morocco,,68777.0,0.0,0.0,Michael Oliver (ENG),,
+2026,Sat Jul 4 2026 - 17:00 UTC-4,Round of 16,Philadelphia Stadium,Philadelphia,Paraguay,0,1,France,,68324.0,0.0,0.0,Ilgiz Tantashev (UZB),,
+2026,Sun Jul 5 2026 - 16:00 UTC-4,Round of 16,New York/New Jersey Stadium,New Jersey,Brazil,1,2,Norway,,80663.0,0.0,0.0,Ismail Elfath (USA),,
+2026,Sun Jul 5 2026 - 19:00 UTC-6,Round of 16,Mexico City Stadium,Mexico City,Mexico,2,3,England,,80824.0,1.0,2.0,Alireza FAGHANI (AUS),,
+2026,Mon Jul 6 2026 - 14:00 UTC-5,Round of 16,Dallas Stadium,Dallas,Portugal,0,1,Spain,,70649.0,0.0,0.0,Anthony Taylor (ENG),,
+2026,Mon Jul 6 2026 - 17:00 UTC-7,Round of 16,Seattle Stadium,Seattle,USA,1,4,Belgium,,66925.0,1.0,2.0,Adham Mohammad Tumah Makhadmeh (JOR),,
+2026,Tue Jul 7 2026 - 12:00 UTC-4,Round of 16,Atlanta Stadium,Atlanta,Argentina,3,2,Egypt,,68239.0,0.0,1.0,François Letexier (FRA),,
+2026,Tue Jul 7 2026 - 13:00 UTC-7,Round of 16,BC Place Vancouver,Vancouver,Switzerland,0,0,Colombia,"a.e.t. (0-0, 0-0), 4-3 pen.",52497.0,,,Ivan Arcides Barton Cisneros (SLV),,
+2026,Thu Jul 9 2026 - 16:00 UTC-4,Quarter-final,Boston Stadium,Boston,France,2,0,Morocco,,63811.0,0.0,0.0,Facundo TELLO (ARG),,
+2026,Fri Jul 10 2026 - 12:00 UTC-7,Quarter-final,Los Angeles Stadium,Los Angeles,Spain,2,1,Belgium,,70492.0,1.0,1.0,Michael Oliver (ENG),,
+2026,Sat Jul 11 2026 - 17:00 UTC-4,Quarter-final,Miami Stadium,Miami,Norway,1,2,England,"a.e.t. (1-1, 1-1)",64478.0,,,Clément Turpin (FRA),,
+2026,Sat Jul 11 2026 - 20:00 UTC-5,Quarter-final,Kansas City Stadium,Kansas City,Argentina,3,1,Switzerland,"a.e.t. (1-1, 1-0)",69045.0,,,João Pedro Silva Pinheiro (POR),,
+2026,Tue Jul 14 2026 - 14:00 UTC-5,Semi-final,Dallas Stadium,Dallas,France,0,2,Spain,,70176.0,0.0,1.0,Ivan Arcides Barton Cisneros (SLV),,
+2026,Wed Jul 15 2026 - 15:00 UTC-4,Semi-final,Atlanta Stadium,Atlanta,England,1,2,Argentina,,68239.0,0.0,0.0,Ismail Elfath (USA),,
+2026,Sat Jul 18 2026 - 17:00 UTC-4,Bronze final,Miami Stadium,Miami,France,4,6,England,,64478.0,0.0,4.0,Jesús Valenzuela Sáez (VEN),,
+2026,Sun Jul 19 2026 - 15:00 UTC-4,Final,New York/New Jersey Stadium,New Jersey,Spain,1,0,Argentina,"a.e.t. (0-0, 0-0)",80663.0,,,Slavko VINCIC (SVN),,
