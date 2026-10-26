@@ -1,0 +1,89 @@
+================================================================================
+KẾ HOẠCH TRỰC QUAN HÓA DỮ LIỆU WORLD CUP (1930 - 2026)
+================================================================================
+
+Đúng, kế hoạch này vẫn giữ nguyên mục tiêu của 3 câu hỏi trong README. Tài liệu chỉ làm rõ phạm vi phân tích:
+- Sức hút: Đo lường bằng lượng khán giả trực tiếp tại sân.
+- Chuyên môn/Cân bằng: Đo lường bằng tỷ số và mức độ chênh lệch bàn thắng.
+- Tính cạnh tranh ở vòng loại trực tiếp (knockout): Đo lường bằng cách biệt tỷ số và phương thức phân định thắng - thua.
+- Yếu tố toàn cầu hóa: Giữ nguyên tinh thần của README thông qua phân tích cơ hội đi tiếp của các liên đoàn bóng đá.
+
+Thống nhất 9 biểu đồ chính (mỗi thành viên phụ trách 3 biểu đồ), sử dụng bộ dữ liệu 1930–2026 hiện có trong repository.
+
+--------------------------------------------------------------------------------
+CÂU HỎI 1 — MỞ RỘNG QUY MÔ GIẢI ĐẤU CÓ LÀM GIẢM SỨC HÚT KHÁN GIẢ MỖI TRẬN KHÔNG?
+--------------------------------------------------------------------------------
+
+1. Quy mô giải đấu và lượng khán giả mỗi trận:
+   - Cách vẽ: Biểu đồ kết hợp (Combo chart) theo từng kỳ; cột là tổng số trận, đường là lượng khán giả trung bình/trận; đánh dấu các mốc mở rộng thể thức.
+   - Ý nghĩa: Trả lời câu hỏi việc tăng số lượng trận đấu có đi kèm với việc sụt giảm khán giả trung bình mỗi trận hay không?
+
+2. Sức hút khán giả theo từng vòng đấu:
+   - Cách vẽ: Biểu đồ đường (Line chart) theo từng kỳ; so sánh lượng khán giả trung bình/trận giữa vòng bảng đầu tiên và vòng loại trực tiếp (knockout).
+   - Ý nghĩa: Trả lời câu hỏi xu hướng tăng hoặc giảm khán giả tập trung chủ yếu ở giai đoạn/nhóm trận nào?
+
+3. Phân phối tỷ lệ lấp đầy sân vận động:
+   - Cách vẽ: Biểu đồ hộp (Boxplot) theo 4 giai đoạn thể thức; tách biệt rõ giữa vòng bảng và vòng knockout.
+   - Ý nghĩa: Trả lời câu hỏi khi đối chiếu với sức chứa thực tế của sân, mức độ lấp đầy khán đài có sự khác biệt rõ rệt giữa các giai đoạn không?
+
+* Bảng dữ liệu đi kèm:
+  Năm, số đội tham dự, tổng số trận, tổng lượng khán giả, khán giả trung bình và trung vị mỗi trận.
+* Lưu ý về Biểu đồ 3:
+  Đóng vai trò là dữ liệu kiểm chứng bổ trợ do chỉ số sức chứa sân trong kho dữ liệu (repo) có thành phần mang tính ước tính.
+
+--------------------------------------------------------------------------------
+CÂU HỎI 2 — MỞ RỘNG GIẢI ĐẤU CÓ LÀM TĂNG CHÊNH LỆCH VÀ CÁC TRẬN MỘT CHIỀU KHÔNG?
+--------------------------------------------------------------------------------
+
+4. Cơ cấu cách biệt tỷ số ở vòng bảng:
+   - Cách vẽ: Biểu đồ cột chồng 100% theo từng kỳ; phân nhóm theo cách biệt <= 1 bàn, 2 bàn và >= 3 bàn.
+   - Ý nghĩa: Trả lời câu hỏi tỷ lệ các trận đấu sát nút có giảm đi, hoặc tỷ lệ các trận thắng đậm có gia tăng khi giải mở rộng không?
+
+5. Tỷ lệ thắng đậm ở vòng bảng so với vòng knockout đầu tiên:
+   - Cách vẽ: Biểu đồ đường kép (đồng nhất thang đo trục tung); theo dõi tỷ lệ trận đấu có cách biệt >= 3 bàn qua từng kỳ.
+   - Ý nghĩa: Trả lời câu hỏi mức độ chênh lệch vượt trội tập trung chủ yếu ở vòng bảng hay lan sang cả vòng knockout đầu tiên?
+
+6. Mức độ cạnh tranh theo từng lượt trận vòng bảng:
+   - Cách vẽ: Biểu đồ cột nhóm theo thể thức; so sánh tỷ lệ thắng đậm giữa Lượt 1, Lượt 2 và Lượt 3 (chỉ xét vòng bảng đầu tiên).
+   - Ý nghĩa: Trả lời câu hỏi lượt trận cuối có xuất hiện nhiều trận đấu một chiều hơn hai lượt trận đầu tiên hay không?
+
+* Bảng dữ liệu đi kèm:
+  Số trận, số bàn thắng trung bình/trận, tỷ lệ trận sát nút (<= 1 bàn) và tỷ lệ thắng đậm (>= 3 bàn) phân theo từng kỳ và từng vòng.
+* Lưu ý về Biểu đồ 6:
+  Tránh kết luận võ đoán đây là "các trận thủ tục"; tập dữ liệu hiện tại chỉ hỗ trợ so sánh sự chênh lệch khách quan giữa các lượt trận.
+
+--------------------------------------------------------------------------------
+CÂU HỎI 3 — MỞ RỘNG GIẢI ĐẤU TÁC ĐỘNG THẾ NÀO ĐẾN TÍNH CẠNH TRANH KNOCKOUT VÀ CƠ HỘI TIẾN SÂU?
+--------------------------------------------------------------------------------
+
+7. Cơ cấu phương thức phân định thắng thua vòng knockout:
+   - Cách vẽ: Biểu đồ cột chồng 100% theo từng kỳ; phân loại gồm Thắng cách biệt >= 2 bàn trong 90 phút, Thắng cách biệt 1 bàn trong 90 phút, Thắng trong hiệp phụ, Thắng bằng loạt luân lưu.
+   - Ý nghĩa: Trả lời câu hỏi các trận knockout có xu hướng phân định cách biệt rõ ràng hay ngày càng giằng co và khó định đoạt hơn?
+
+8. Tỷ lệ trận đấu kéo dài hơn 90 phút theo vòng:
+   - Cách vẽ: Biểu đồ nhiệt (Heatmap) Năm x Vòng đấu; thể hiện tỷ lệ trận đấu phải đá hiệp phụ/luân lưu; hiển thị rõ số trận thực tế trên từng ô.
+   - Ý nghĩa: Trả lời câu hỏi tính chất căng thẳng tập trung ở vòng mở màn hay các vòng trong, đặc biệt tại vòng 32 đội (Round of 32) của kỳ 2026?
+
+9. Cơ hội vượt qua vòng bảng của các liên đoàn châu lục:
+   - Cách vẽ: Biểu đồ nhiệt (Heatmap) theo liên đoàn và kỳ; tỷ lệ vượt qua vòng bảng đầu tiên (kèm chú thích số đội đi tiếp / tổng số đội tham dự của liên đoàn đó).
+   - Ý nghĩa: Trả lời câu hỏi cơ hội góp mặt ở các vòng sau có được san sẻ rộng rãi và đồng đều hơn giữa các liên đoàn hay không?
+
+* Bảng dữ liệu đi kèm:
+  Tổng số trận knockout, tỷ lệ thắng cách biệt, tỷ lệ trận đấu kéo dài trên 90 phút, tỷ lệ luân lưu theo kỳ/vòng; số lượng đội tham gia và số đội đi tiếp theo từng liên đoàn.
+* Lưu ý về Biểu đồ 9:
+  Duy trì mục tiêu phân tích tính toàn cầu hóa theo README; chỉ số này không dùng để xác định "đội cửa dưới" hoặc chứng minh "các nền bóng đá yếu đã mạnh lên".
+
+--------------------------------------------------------------------------------
+QUY ƯỚC VÀ TIÊU CHUẨN KỸ THUẬT KHI TRỰC QUAN HÓA
+--------------------------------------------------------------------------------
+
+- Trục thời gian theo từng kỳ giải đấu: Dùng bảng màu hoặc các mốc thời gian dọc (vertical reference lines) để phân cách 4 giai đoạn thể thức. Tránh so sánh trực tiếp tổng số trận gộp giữa các giai đoạn do số lượng kỳ tổ chức không đồng đều.
+- Xử lý dữ liệu năm 2026: Giữ lại dữ liệu năm 2026 nhưng bắt buộc ghi chú "Dữ liệu giả lập/mô phỏng theo tài liệu README" và sử dụng màu sắc/ký hiệu nét đứt riêng biệt để không gây nhầm lẫn với dữ liệu lịch sử.
+- Chuẩn hóa nhãn (labels): Đồng bộ quy cách đặt tên vòng đấu, trạng thái hiệp phụ/luân lưu và lượt trận trước khi dựng biểu đồ. Tách riêng trận tranh hạng ba (Third-place play-off) và chú thích các ngoại lệ lịch sử (như các trận đá lại - Replay matches).
+- Giới hạn phạm vi dữ liệu: Loại bỏ hoàn toàn các ý tưởng phân tích liên quan đến chỉ số Elo, phân hạng cửa trên/cửa dưới, hoặc tương quan GDP/quy mô dân số vì kho dữ liệu gốc không hỗ trợ các trường thông tin này.
+
+TỔNG KẾT:
+Câu hỏi 1 tập trung vào sức hút khán giả.
+Câu hỏi 2 đi sâu vào tính cân bằng chuyên môn/tỷ số.
+Câu hỏi 3 làm rõ mức độ quyết liệt vòng knockout cùng độ mở cơ hội giữa các liên đoàn.
+Mỗi mục đều có kết luận độc lập trước khi tổng hợp thành câu trả lời hoàn chỉnh cho mục tiêu nghiên cứu chung của đề tài.
