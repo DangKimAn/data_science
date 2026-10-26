@@ -1,6 +1,44 @@
 # TỪ ĐIỂN DỮ LIỆU & HƯỚNG DẪN VISUALIZE (DATA DICTIONARY)
 **Dự án:** Phân tích Dữ liệu World Cup 2026 (16 $\to$ 24 $\to$ 32 $\to$ 48 đội)  
-**Tệp dữ liệu chính bàn giao:** `worldcup_master_cleaned.csv` (1.068 trận, 1930–2026, 0 giá trị thiếu ở cột Attendance).
+**Tệp dữ liệu chính bàn giao:** `worldcup_master_cleaned.csv` (1.068 trận, 1930–2026, 52 cột, tích hợp Elo & Hạt giống Vòng bảng).  
+**Bảng Dimension bổ trợ:** `dim_tournaments.csv`, `dim_stadiums.csv`, `dim_confederations.csv`, `dim_team_elo.csv`, `dim_group_standings.csv`, `dim_qualifiers_summary.csv` (23 kỳ), `dim_financials.csv` (23 chu kỳ).
+
+---
+
+## 1.1 CẤU TRÚC CÁC BẢNG DIMENSION BỔ TRỢ
+
+### A. `dim_qualifiers_summary.csv` (Quy mô Vòng loại qua 23 kỳ - TV3 / Intro Slide)
+- `Year`: Năm World Cup (1930 - 2026).
+- `Host_Country`: Quốc gia đăng cai.
+- `Era_Format`: Kỷ nguyên thể thức (16, 24, 32, 48 Teams).
+- `Teams_In_Qualifiers`: Tổng số liên đoàn tham gia vòng loại (tăng từ 13 lên 211).
+- `Teams_In_Finals`: Số đội lọt vào VCK (13 -> 48).
+- `Matches_In_Qualifiers`: Số trận đấu diễn ra ở vòng loại (lên tới 920 trận ở 2026).
+- `Qualification_Rate`: Tỷ lệ giành vé vào VCK = $(Teams\_Finals / Teams\_Qualifiers) \times 100\%$.
+
+### B. `dim_financials.csv` (Doanh thu & Tiền thưởng FIFA - TV1 Thương mại)
+- `Year`: Kỳ giải đấu (1930 - 2026).
+- `Host_Country`: Quốc gia đăng cai.
+- `Era_Format`: Kỷ nguyên thể thức.
+- `Total_Revenue_USD_M`: Doanh thu chu kỳ 4 năm của FIFA (Triệu USD - $1.9B năm 1998 -> $11B năm 2026).
+- `Prize_Money_USD_M`: Tổng quỹ tiền thưởng chia cho các đội (Triệu USD - $20M năm 1982 -> $652M năm 2026).
+- `Champion_Payout_USD_M`: Tiền thưởng cho đội vô địch (Triệu USD - $1.4M năm 1982 -> $50M năm 2026).
+- `Runner_Up_Payout_USD_M`: Tiền thưởng cho đội Á quân (Triệu USD - $0.9M năm 1982 -> $35M năm 2026).
+- `TV_Rights_Share_Pct`: Tỷ trọng doanh thu từ bản quyền truyền hình (%).
+- `Prize_Share_Of_Revenue_Pct`: Tỷ lệ tiền thưởng trên tổng doanh thu (%).
+- `Revenue_Growth_Index_1998_Base`: Chỉ số tăng trưởng doanh thu lấy mốc năm 1998 = 100.0 (năm 2026 đạt 578.9).
+
+### C. `dim_dead_rubbers.csv` (Chi tiết 249 trận Matchday 3 & Phân loại tính chất thủ tục - TV2)
+- `MatchID`: Mã định danh duy nhất của trận đấu.
+- `Year`, `Era_Format`, `Stage`, `Datetime`: Thông tin giải đấu và thời gian thi đấu.
+- `Home Team Name`, `Away Team Name`: Hai đội chạm trán ở lượt cuối vòng bảng.
+- `Home_Pre_Match_Status`, `Away_Pre_Match_Status`: Trạng thái toán học của từng đội trước giờ bóng lăn (`Qualified`, `Eliminated`, `Contending`).
+- `Match_Stakes`: Phân loại 4 nhóm (`1. Both Qualified`, `2. Both Eliminated`, `3. One-sided Dead Rubber`, `4. Decisive / High Stakes`).
+- `Is_Dead_Rubber`: Cờ Boolean (`True` nếu trận đấu có yếu tố thủ tục).
+- `Is_Full_Dead_Rubber`: Cờ Boolean (`True` nếu cả 2 đội đều đã an bài số phận).
+- `Home Team Goals`, `Away Team Goals`, `Total_Goals`, `Goal_Margin`: Kết quả và số bàn thắng.
+
+---
 
 ---
 
@@ -28,7 +66,19 @@
 | `Attendance` | Float | Số lượng khán giả thực tế theo dõi trận đấu (đã phục hồi đủ 100%). | **TV1 (Sức hút thương mại)** |
 | `Max_Capacity` | Int | Sức chứa tối đa của sân vận động tổ chức. | TV1 |
 | `Occupancy_Rate` | Float (%) | Tỷ lệ lấp đầy sân = $(\text{Attendance} / \text{Max\_Capacity}) \times 100\%$. | **TV1 (Triệt tiêu nhiễu sân Mỹ)** |
+| `Capacity_Source` | Categorical | Nguồn dữ liệu sức chứa: `Official_Or_Historical` vs `Imputed_From_Attendance`. | TV1 |
 | `Home_Confederation`, `Away_Confederation` | String | Liên đoàn châu lục (UEFA, CONMEBOL, CONCACAF, CAF, AFC, OFC). | Mở rộng địa lý |
+| `Home_Team_Elo`, `Away_Team_Elo` | Int | Điểm số World Football Elo Ratings của hai đội ngay trước giải đấu. | **TV2 & TV3 (Cửa trên / Cửa dưới)** |
+| `Elo_Diff` | Int | Độ chênh lệch điểm đẳng cấp Elo = $\lvert \text{Home\_Elo} - \text{Away\_Elo} \rvert$. | **TV2 (Tương quan tỷ số)** |
+| `Underdog_Team`, `Favorite_Team` | String | Tên đội cửa dưới (Elo thấp hơn) và đội cửa trên (Elo cao hơn). | **TV3 (Phân tích Upsets)** |
+| `Is_Upset` | Boolean | `True` nếu đội cửa dưới giành chiến thắng hoặc loại đội cửa trên. | **TV3 (Địa chấn Knock-out)** |
+| `Home_Group_Rank`, `Away_Group_Rank` | Int | Thứ hạng vòng bảng của 2 đội (1: Nhất bảng, 2: Nhì bảng, 3: Hạng ba vé vớt). | **TV3 (Phân loại hạt giống)** |
+| `Matchup_Type` | Categorical | Phân loại kịch bản cặp đấu knock-out: `1. Winner vs Runner-up (1 vs 2)`, `2. Winner vs 3rd Place (1 vs 3 Wildcard)`, v.v. | **TV3 (Kiểm định vé vớt)** |
+| `Contains_Third_Placed_Team` | Boolean | `True` nếu trận knock-out có sự góp mặt của đội hạng 3 vé vớt. | **TV3 (Phân tích tử thủ/luân lưu)** |
+| `Match_Stakes` | Categorical | Tính chất trận Matchday 3: `1. Both Qualified`, `2. Both Eliminated`, `3. One-sided Dead Rubber`, `4. Decisive / High Stakes`. | **TV2 (Kiểm chứng trận thủ tục)** |
+| `Is_Dead_Rubber` | Boolean | `True` nếu trận đấu có tính chất thủ tục (cả 2 vào, cả 2 bị loại, hoặc 1 chiều). | **TV2 (Phân tích Matchday 3)** |
+| `Is_Full_Dead_Rubber` | Boolean | `True` nếu cả 2 đội đều đã an bài số phận (Both Qualified hoặc Both Eliminated). | **TV2 (Trận thủ tục tuyệt đối)** |
+| `Home_Pre_Match_Status`, `Away_Pre_Match_Status` | Categorical | Trạng thái toán học của từng đội trước giờ bóng lăn Matchday 3: `Qualified`, `Eliminated`, `Contending`. | **TV2 (Bóc tách tâm lý thi đấu)** |
 
 ---
 

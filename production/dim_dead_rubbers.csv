@@ -1,0 +1,250 @@
+MatchID,Year,Era_Format,Stage,Datetime,Home Team Name,Away Team Name,Home_Pre_Match_Status,Away_Pre_Match_Status,Match_Stakes,Is_Dead_Rubber,Is_Full_Dead_Rubber,Home Team Goals,Away Team Goals,Total_Goals,Goal_Margin
+1094,1930,16 Teams (1930-1978),Group 1,1930-07-19 12:50:00,Chile,France,Contending,Contending,4. Decisive / High Stakes,False,False,1,0,1,1
+1086,1930,16 Teams (1930-1978),Group 1,1930-07-19 15:00:00,Argentina,Mexico,Contending,Contending,4. Decisive / High Stakes,False,False,6,3,9,3
+1084,1930,16 Teams (1930-1978),Group 1,1930-07-22 14:45:00,Argentina,Chile,Contending,Contending,4. Decisive / High Stakes,False,False,3,1,4,2
+1191,1950,16 Teams (1930-1978),Group 1,1950-07-01 15:00:00,Brazil,Yugoslavia,Contending,Qualified,3. One-sided Dead Rubber,True,False,2,0,2,2
+1199,1950,16 Teams (1930-1978),Group 2,1950-07-02 15:00:00,Spain,England,Contending,Contending,4. Decisive / High Stakes,False,False,1,0,1,1
+1194,1950,16 Teams (1930-1978),Group 2,1950-07-02 15:00:00,Chile,USA,Contending,Contending,4. Decisive / High Stakes,False,False,5,2,7,3
+1222,1950,16 Teams (1930-1978),Group 1,1950-07-02 15:40:00,Switzerland,Mexico,Contending,Eliminated,3. One-sided Dead Rubber,True,False,2,1,3,1
+1206,1950,16 Teams (1930-1978),Group 6,1950-07-16 15:00:00,Sweden,Spain,Eliminated,Contending,3. One-sided Dead Rubber,True,False,3,1,4,2
+1190,1950,16 Teams (1930-1978),Group 6,1950-07-16 15:00:00,Uruguay,Brazil,Contending,Qualified,3. One-sided Dead Rubber,True,False,2,1,3,1
+1438,1958,16 Teams (1930-1978),Group 3,1958-06-15 14:00:00,Sweden,Wales,Qualified,Contending,3. One-sided Dead Rubber,True,False,0,0,0,0
+1389,1958,16 Teams (1930-1978),Group 1,1958-06-15 19:00:00,Germany FR,Northern Ireland,Contending,Contending,4. Decisive / High Stakes,False,False,2,2,4,0
+1325,1958,16 Teams (1930-1978),Group 1,1958-06-15 19:00:00,Czechoslovakia,Argentina,Contending,Contending,4. Decisive / High Stakes,False,False,6,1,7,5
+1426,1958,16 Teams (1930-1978),Group 2,1958-06-15 19:00:00,Paraguay,Yugoslavia,Contending,Contending,4. Decisive / High Stakes,False,False,3,3,6,0
+1387,1958,16 Teams (1930-1978),Group 2,1958-06-15 19:00:00,France,Scotland,Contending,Contending,4. Decisive / High Stakes,False,False,2,1,3,1
+1403,1958,16 Teams (1930-1978),Group 3,1958-06-15 19:00:00,Hungary,Mexico,Contending,Contending,4. Decisive / High Stakes,False,False,4,0,4,4
+1344,1958,16 Teams (1930-1978),Group 4,1958-06-15 19:00:00,Brazil,Soviet Union,Contending,Contending,4. Decisive / High Stakes,False,False,2,0,2,2
+1327,1958,16 Teams (1930-1978),Group 4,1958-06-15 19:00:00,England,Austria,Contending,Eliminated,3. One-sided Dead Rubber,True,False,2,2,4,0
+1562,1962,16 Teams (1930-1978),Group 1,1962-06-06 15:00:00,Soviet Union,Uruguay,Contending,Contending,4. Decisive / High Stakes,False,False,2,1,3,1
+1471,1962,16 Teams (1930-1978),Group 2,1962-06-06 15:00:00,Germany FR,Chile,Contending,Qualified,3. One-sided Dead Rubber,True,False,2,0,2,2
+1460,1962,16 Teams (1930-1978),Group 3,1962-06-06 15:00:00,Brazil,Spain,Contending,Contending,4. Decisive / High Stakes,False,False,2,1,3,1
+1451,1962,16 Teams (1930-1978),Group 4,1962-06-06 15:00:00,Hungary,Argentina,Contending,Contending,4. Decisive / High Stakes,False,False,0,0,0,0
+1480,1962,16 Teams (1930-1978),Group 1,1962-06-07 15:00:00,Yugoslavia,Colombia,Contending,Contending,4. Decisive / High Stakes,False,False,5,0,5,5
+1532,1962,16 Teams (1930-1978),Group 2,1962-06-07 15:00:00,Italy,Switzerland,Contending,Eliminated,3. One-sided Dead Rubber,True,False,3,0,3,3
+1544,1962,16 Teams (1930-1978),Group 3,1962-06-07 15:00:00,Mexico,Czechoslovakia,Eliminated,Contending,3. One-sided Dead Rubber,True,False,3,1,4,2
+1464,1962,16 Teams (1930-1978),Group 4,1962-06-07 15:00:00,England,Bulgaria,Contending,Contending,4. Decisive / High Stakes,False,False,0,0,0,0
+1689,1966,16 Teams (1930-1978),Group 1,1966-07-19 16:30:00,Uruguay,Mexico,Contending,Contending,4. Decisive / High Stakes,False,False,0,0,0,0
+1582,1966,16 Teams (1930-1978),Group 2,1966-07-19 19:30:00,Argentina,Switzerland,Contending,Eliminated,3. One-sided Dead Rubber,True,False,2,0,2,2
+1598,1966,16 Teams (1930-1978),Group 3,1966-07-19 19:30:00,Portugal,Brazil,Contending,Contending,4. Decisive / High Stakes,False,False,3,1,4,2
+1679,1966,16 Teams (1930-1978),Group 4,1966-07-19 19:30:00,North Korea,Italy,Contending,Contending,4. Decisive / High Stakes,False,False,1,0,1,1
+1632,1966,16 Teams (1930-1978),Group 1,1966-07-20 19:30:00,England,France,Contending,Contending,4. Decisive / High Stakes,False,False,2,0,2,2
+1637,1966,16 Teams (1930-1978),Group 2,1966-07-20 19:30:00,Germany FR,Spain,Contending,Contending,4. Decisive / High Stakes,False,False,2,1,3,1
+1599,1966,16 Teams (1930-1978),Group 3,1966-07-20 19:30:00,Hungary,Bulgaria,Contending,Contending,4. Decisive / High Stakes,False,False,3,1,4,2
+1610,1966,16 Teams (1930-1978),Group 4,1966-07-20 19:30:00,Soviet Union,Chile,Qualified,Contending,3. One-sided Dead Rubber,True,False,2,1,3,1
+1823,1970,16 Teams (1930-1978),Group 1,1970-06-10 16:00:00,Soviet Union,El Salvador,Contending,Eliminated,3. One-sided Dead Rubber,True,False,2,0,2,2
+1922,1970,16 Teams (1930-1978),Group 2,1970-06-10 16:00:00,Sweden,Uruguay,Contending,Contending,4. Decisive / High Stakes,False,False,1,0,1,1
+1769,1970,16 Teams (1930-1978),Group 3,1970-06-10 16:00:00,Brazil,Romania,Contending,Contending,4. Decisive / High Stakes,False,False,3,2,5,1
+1840,1970,16 Teams (1930-1978),Group 4,1970-06-10 16:00:00,Germany FR,Peru,Qualified,Qualified,1. Both Qualified,True,True,3,1,4,2
+1752,1970,16 Teams (1930-1978),Group 1,1970-06-11 16:00:00,Mexico,Belgium,Contending,Contending,4. Decisive / High Stakes,False,False,1,0,1,1
+1877,1970,16 Teams (1930-1978),Group 2,1970-06-11 16:00:00,Italy,Israel,Contending,Contending,4. Decisive / High Stakes,False,False,0,0,0,0
+1813,1970,16 Teams (1930-1978),Group 3,1970-06-11 16:00:00,England,Czechoslovakia,Contending,Contending,4. Decisive / High Stakes,False,False,1,0,1,1
+1779,1970,16 Teams (1930-1978),Group 4,1970-06-11 16:00:00,Bulgaria,Morocco,Eliminated,Eliminated,2. Both Eliminated,True,True,1,1,2,0
+1953,1974,16 Teams (1930-1978),Group 1,1974-06-22 16:00:00,Australia,Chile,Eliminated,Contending,3. One-sided Dead Rubber,True,False,0,0,0,0
+2175,1974,16 Teams (1930-1978),Group 2,1974-06-22 16:00:00,Scotland,Yugoslavia,Contending,Contending,4. Decisive / High Stakes,False,False,1,1,2,0
+1987,1974,16 Teams (1930-1978),Group 2,1974-06-22 16:00:00,Zaire,Brazil,Eliminated,Contending,3. One-sided Dead Rubber,True,False,0,3,3,3
+2062,1974,16 Teams (1930-1978),Group 1,1974-06-22 19:30:00,German DR,Germany FR,Contending,Qualified,3. One-sided Dead Rubber,True,False,1,0,1,1
+1990,1974,16 Teams (1930-1978),Group 3,1974-06-23 16:00:00,Bulgaria,Netherlands,Contending,Contending,4. Decisive / High Stakes,False,False,1,4,5,3
+2181,1974,16 Teams (1930-1978),Group 3,1974-06-23 16:00:00,Sweden,Uruguay,Contending,Contending,4. Decisive / High Stakes,False,False,3,0,3,3
+1947,1974,16 Teams (1930-1978),Group 4,1974-06-23 16:00:00,Argentina,Haiti,Contending,Eliminated,3. One-sided Dead Rubber,True,False,4,1,5,3
+2129,1974,16 Teams (1930-1978),Group 4,1974-06-23 16:00:00,Poland,Italy,Qualified,Contending,3. One-sided Dead Rubber,True,False,2,1,3,1
+2064,1974,16 Teams (1930-1978),Group B,1974-07-03 17:00:00,Poland,Germany FR,Not Applicable,Not Applicable,Not Applicable (Not Matchday 3),False,False,0,1,1,1
+1983,1974,16 Teams (1930-1978),Group A,1974-07-03 19:30:00,Netherlands,Brazil,Not Applicable,Not Applicable,Not Applicable (Not Matchday 3),False,False,2,0,2,2
+1946,1974,16 Teams (1930-1978),Group A,1974-07-03 19:30:00,Argentina,German DR,Not Applicable,Not Applicable,Not Applicable (Not Matchday 3),False,False,1,1,2,0
+2182,1974,16 Teams (1930-1978),Group B,1974-07-03 19:30:00,Sweden,Yugoslavia,Not Applicable,Not Applicable,Not Applicable (Not Matchday 3),False,False,2,1,3,1
+2344,1978,16 Teams (1930-1978),Group 1,1978-06-10 15:10:00,France,Hungary,Eliminated,Eliminated,2. Both Eliminated,True,True,3,1,4,2
+2431,1978,16 Teams (1930-1978),Group 2,1978-06-10 16:45:00,Poland,Mexico,Contending,Eliminated,3. One-sided Dead Rubber,True,False,3,1,4,2
+2352,1978,16 Teams (1930-1978),Group 2,1978-06-10 16:45:00,Germany FR,Tunisia,Contending,Contending,4. Decisive / High Stakes,False,False,0,0,0,0
+2200,1978,16 Teams (1930-1978),Group 1,1978-06-10 19:15:00,Italy,Argentina,Qualified,Qualified,1. Both Qualified,True,True,1,0,1,1
+2215,1978,16 Teams (1930-1978),Group 3,1978-06-11 13:45:00,Brazil,Austria,Contending,Qualified,3. One-sided Dead Rubber,True,False,1,0,1,1
+2337,1978,16 Teams (1930-1978),Group 3,1978-06-11 13:45:00,Spain,Sweden,Contending,Contending,4. Decisive / High Stakes,False,False,1,0,1,1
+2405,1978,16 Teams (1930-1978),Group 4,1978-06-11 16:45:00,Peru,Iran,Contending,Contending,4. Decisive / High Stakes,False,False,4,1,5,3
+2395,1978,16 Teams (1930-1978),Group 4,1978-06-11 16:45:00,Scotland,Netherlands,Contending,Contending,4. Decisive / High Stakes,False,False,3,2,5,1
+2391,1978,16 Teams (1930-1978),Group A,1978-06-21 13:45:00,Netherlands,Italy,Not Applicable,Not Applicable,Not Applicable (Not Matchday 3),False,False,2,1,3,1
+2217,1978,16 Teams (1930-1978),Group A,1978-06-21 13:45:00,Austria,Germany FR,Not Applicable,Not Applicable,Not Applicable (Not Matchday 3),False,False,3,2,5,1
+2252,1978,16 Teams (1930-1978),Group B,1978-06-21 16:45:00,Brazil,Poland,Not Applicable,Not Applicable,Not Applicable (Not Matchday 3),False,False,3,1,4,2
+2201,1978,16 Teams (1930-1978),Group B,1978-06-21 19:15:00,Argentina,Peru,Not Applicable,Not Applicable,Not Applicable (Not Matchday 3),False,False,6,0,6,6
+1055,1982,24 Teams (1982-1994),Group 1,1982-06-22 17:15:00,Poland,Peru,Contending,Contending,4. Decisive / High Stakes,False,False,5,1,6,4
+779,1982,24 Teams (1982-1994),Group 3,1982-06-22 21:00:00,Belgium,Hungary,Contending,Contending,4. Decisive / High Stakes,False,False,1,1,2,0
+1071,1982,24 Teams (1982-1994),Group 6,1982-06-22 21:00:00,Soviet Union,Scotland,Contending,Contending,4. Decisive / High Stakes,False,False,2,2,4,0
+828,1982,24 Teams (1982-1994),Group 1,1982-06-23 17:15:00,Italy,Cameroon,Contending,Contending,4. Decisive / High Stakes,False,False,1,1,2,0
+751,1982,24 Teams (1982-1994),Group 3,1982-06-23 21:00:00,Argentina,El Salvador,Contending,Contending,4. Decisive / High Stakes,False,False,2,0,2,2
+789,1982,24 Teams (1982-1994),Group 6,1982-06-23 21:00:00,Brazil,New Zealand,Contending,Contending,4. Decisive / High Stakes,False,False,4,0,4,4
+740,1982,24 Teams (1982-1994),Group 2,1982-06-24 17:15:00,Algeria,Chile,Contending,Contending,4. Decisive / High Stakes,False,False,3,2,5,1
+922,1982,24 Teams (1982-1994),Group 4,1982-06-24 17:15:00,France,Czechoslovakia,Contending,Contending,4. Decisive / High Stakes,False,False,1,1,2,0
+962,1982,24 Teams (1982-1994),Group 5,1982-06-24 21:00:00,Honduras,Yugoslavia,Contending,Contending,4. Decisive / High Stakes,False,False,0,1,1,1
+770,1982,24 Teams (1982-1994),Group 2,1982-06-25 17:15:00,Germany FR,Austria,Contending,Contending,4. Decisive / High Stakes,False,False,1,0,1,1
+882,1982,24 Teams (1982-1994),Group 4,1982-06-25 17:15:00,England,Kuwait,Qualified,Contending,3. One-sided Dead Rubber,True,False,1,0,1,1
+902,1982,24 Teams (1982-1994),Group 5,1982-06-25 21:00:00,Northern Ireland,Spain,Contending,Contending,4. Decisive / High Stakes,False,False,1,0,1,1
+567,1986,24 Teams (1982-1994),Group C,1986-06-09 12:00:00,Hungary,France,Contending,Contending,4. Decisive / High Stakes,False,False,0,3,3,3
+476,1986,24 Teams (1982-1994),Group C,1986-06-09 12:00:00,Soviet Union,Canada,Contending,Contending,4. Decisive / High Stakes,False,False,2,0,2,2
+643,1986,24 Teams (1982-1994),Group A,1986-06-10 12:00:00,South Korea,Italy,Contending,Contending,4. Decisive / High Stakes,False,False,2,3,5,1
+389,1986,24 Teams (1982-1994),Group A,1986-06-10 12:00:00,Argentina,Bulgaria,Contending,Contending,4. Decisive / High Stakes,False,False,2,0,2,2
+429,1986,24 Teams (1982-1994),Group B,1986-06-11 12:00:00,Paraguay,Belgium,Contending,Contending,4. Decisive / High Stakes,False,False,2,2,4,0
+627,1986,24 Teams (1982-1994),Group B,1986-06-11 12:00:00,Iraq,Mexico,Contending,Contending,4. Decisive / High Stakes,False,False,0,1,1,1
+675,1986,24 Teams (1982-1994),Group F,1986-06-11 16:00:00,Portugal,Morocco,Contending,Contending,4. Decisive / High Stakes,False,False,1,3,4,2
+537,1986,24 Teams (1982-1994),Group F,1986-06-11 16:00:00,England,Poland,Contending,Contending,4. Decisive / High Stakes,False,False,3,0,3,3
+441,1986,24 Teams (1982-1994),Group D,1986-06-12 12:00:00,Northern Ireland,Brazil,Contending,Qualified,3. One-sided Dead Rubber,True,False,0,3,3,3
+378,1986,24 Teams (1982-1994),Group D,1986-06-12 12:00:00,Algeria,Spain,Contending,Contending,4. Decisive / High Stakes,False,False,0,3,3,3
+712,1986,24 Teams (1982-1994),Group E,1986-06-13 12:00:00,Scotland,Uruguay,Contending,Contending,4. Decisive / High Stakes,False,False,0,0,0,0
+512,1986,24 Teams (1982-1994),Group E,1986-06-13 12:00:00,Denmark,Germany FR,Qualified,Contending,3. One-sided Dead Rubber,True,False,2,0,2,2
+29,1990,24 Teams (1982-1994),Group B,1990-06-18 21:00:00,Argentina,Romania,Contending,Contending,4. Decisive / High Stakes,False,False,1,1,2,0
+111,1990,24 Teams (1982-1994),Group B,1990-06-18 21:00:00,Cameroon,Soviet Union,Contending,Contending,4. Decisive / High Stakes,False,False,0,4,4,4
+114,1990,24 Teams (1982-1994),Group D,1990-06-19 17:00:00,Germany FR,Colombia,Contending,Contending,4. Decisive / High Stakes,False,False,1,1,2,0
+364,1990,24 Teams (1982-1994),Group D,1990-06-19 17:00:00,Yugoslavia,United Arab Emirates,Contending,Contending,4. Decisive / High Stakes,False,False,4,1,5,3
+263,1990,24 Teams (1982-1994),Group A,1990-06-19 21:00:00,Italy,Czechoslovakia,Qualified,Qualified,1. Both Qualified,True,True,2,0,2,2
+48,1990,24 Teams (1982-1994),Group A,1990-06-19 21:00:00,Austria,USA,Contending,Contending,4. Decisive / High Stakes,False,False,2,1,3,1
+74,1990,24 Teams (1982-1994),Group C,1990-06-20 21:00:00,Brazil,Scotland,Contending,Contending,4. Decisive / High Stakes,False,False,1,0,1,1
+128,1990,24 Teams (1982-1994),Group C,1990-06-20 21:00:00,Sweden,Costa Rica,Contending,Contending,4. Decisive / High Stakes,False,False,1,2,3,1
+290,1990,24 Teams (1982-1994),Group E,1990-06-21 17:00:00,South Korea,Uruguay,Contending,Contending,4. Decisive / High Stakes,False,False,0,1,1,1
+56,1990,24 Teams (1982-1994),Group E,1990-06-21 17:00:00,Belgium,Spain,Qualified,Contending,3. One-sided Dead Rubber,True,False,1,2,3,1
+228,1990,24 Teams (1982-1994),Group F,1990-06-21 21:00:00,Republic of Ireland,Netherlands,Contending,Contending,4. Decisive / High Stakes,False,False,1,1,2,0
+150,1990,24 Teams (1982-1994),Group F,1990-06-21 21:00:00,England,Egypt,Contending,Contending,4. Decisive / High Stakes,False,False,1,0,1,1
+3073,1994,24 Teams (1982-1994),Group A,1994-06-26 16:00:00,USA,Romania,Contending,Contending,4. Decisive / High Stakes,False,False,0,1,1,1
+3074,1994,24 Teams (1982-1994),Group A,1994-06-26 16:00:00,Switzerland,Colombia,Contending,Contending,4. Decisive / High Stakes,False,False,0,2,2,2
+3076,1994,24 Teams (1982-1994),Group C,1994-06-27 16:00:00,Germany,South Korea,Contending,Contending,4. Decisive / High Stakes,False,False,3,2,5,1
+3075,1994,24 Teams (1982-1994),Group C,1994-06-27 16:00:00,Bolivia,Spain,Contending,Contending,4. Decisive / High Stakes,False,False,1,3,4,2
+3077,1994,24 Teams (1982-1994),Group E,1994-06-28 12:30:00,Republic of Ireland,Norway,Contending,Contending,4. Decisive / High Stakes,False,False,0,0,0,0
+3078,1994,24 Teams (1982-1994),Group E,1994-06-28 12:30:00,Italy,Mexico,Contending,Contending,4. Decisive / High Stakes,False,False,1,1,2,0
+3080,1994,24 Teams (1982-1994),Group B,1994-06-28 16:00:00,Brazil,Sweden,Qualified,Contending,3. One-sided Dead Rubber,True,False,1,1,2,0
+3079,1994,24 Teams (1982-1994),Group B,1994-06-28 16:00:00,Russia,Cameroon,Contending,Contending,4. Decisive / High Stakes,False,False,6,1,7,5
+3081,1994,24 Teams (1982-1994),Group F,1994-06-29 12:30:00,Morocco,Netherlands,Contending,Contending,4. Decisive / High Stakes,False,False,1,2,3,1
+3082,1994,24 Teams (1982-1994),Group F,1994-06-29 12:30:00,Belgium,Saudi Arabia,Contending,Contending,4. Decisive / High Stakes,False,False,0,1,1,1
+3083,1994,24 Teams (1982-1994),Group D,1994-06-30 19:30:00,Greece,Nigeria,Contending,Contending,4. Decisive / High Stakes,False,False,0,2,2,2
+3084,1994,24 Teams (1982-1994),Group D,1994-06-30 19:30:00,Argentina,Bulgaria,Contending,Contending,4. Decisive / High Stakes,False,False,0,2,2,2
+8757,1998,32 Teams (1998-2022),Group B,1998-06-23 16:00:00,Italy,Austria,Contending,Contending,4. Decisive / High Stakes,False,False,2,1,3,1
+8760,1998,32 Teams (1998-2022),Group B,1998-06-23 16:00:00,Chile,Cameroon,Contending,Contending,4. Decisive / High Stakes,False,False,1,1,2,0
+8758,1998,32 Teams (1998-2022),Group A,1998-06-23 21:00:00,Scotland,Morocco,Contending,Contending,4. Decisive / High Stakes,False,False,0,3,3,3
+8759,1998,32 Teams (1998-2022),Group A,1998-06-23 21:00:00,Brazil,Norway,Qualified,Contending,3. One-sided Dead Rubber,True,False,1,2,3,1
+8762,1998,32 Teams (1998-2022),Group C,1998-06-24 16:00:00,France,Denmark,Qualified,Contending,3. One-sided Dead Rubber,True,False,2,1,3,1
+8764,1998,32 Teams (1998-2022),Group C,1998-06-24 16:00:00,South Africa,Saudi Arabia,Contending,Eliminated,3. One-sided Dead Rubber,True,False,2,2,4,0
+8761,1998,32 Teams (1998-2022),Group D,1998-06-24 21:00:00,Spain,Bulgaria,Contending,Contending,4. Decisive / High Stakes,False,False,6,1,7,5
+8763,1998,32 Teams (1998-2022),Group D,1998-06-24 21:00:00,Nigeria,Paraguay,Qualified,Contending,3. One-sided Dead Rubber,True,False,1,3,4,2
+8765,1998,32 Teams (1998-2022),Group E,1998-06-25 16:00:00,Belgium,South Korea,Contending,Eliminated,3. One-sided Dead Rubber,True,False,1,1,2,0
+8766,1998,32 Teams (1998-2022),Group E,1998-06-25 16:00:00,Netherlands,Mexico,Contending,Contending,4. Decisive / High Stakes,False,False,2,2,4,0
+8767,1998,32 Teams (1998-2022),Group F,1998-06-25 21:00:00,Germany,Iran,Contending,Contending,4. Decisive / High Stakes,False,False,2,0,2,2
+8768,1998,32 Teams (1998-2022),Group F,1998-06-25 21:00:00,USA,Yugoslavia,Eliminated,Contending,3. One-sided Dead Rubber,True,False,0,1,1,1
+8771,1998,32 Teams (1998-2022),Group H,1998-06-26 16:00:00,Japan,Jamaica,Eliminated,Eliminated,2. Both Eliminated,True,True,1,2,3,1
+8772,1998,32 Teams (1998-2022),Group H,1998-06-26 16:00:00,Argentina,Croatia,Qualified,Qualified,1. Both Qualified,True,True,1,0,1,1
+8769,1998,32 Teams (1998-2022),Group G,1998-06-26 21:00:00,Romania,Tunisia,Contending,Contending,4. Decisive / High Stakes,False,False,1,1,2,0
+8770,1998,32 Teams (1998-2022),Group G,1998-06-26 21:00:00,Colombia,England,Contending,Contending,4. Decisive / High Stakes,False,False,0,2,2,2
+43950033,2002,32 Teams (1998-2022),Group A,2002-06-11 15:30:00,Denmark,France,Contending,Contending,4. Decisive / High Stakes,False,False,2,0,2,2
+43950034,2002,32 Teams (1998-2022),Group A,2002-06-11 15:30:00,Senegal,Uruguay,Contending,Contending,4. Decisive / High Stakes,False,False,3,3,6,0
+43950036,2002,32 Teams (1998-2022),Group E,2002-06-11 20:30:00,Saudi Arabia,Republic of Ireland,Eliminated,Contending,3. One-sided Dead Rubber,True,False,0,3,3,3
+43950035,2002,32 Teams (1998-2022),Group E,2002-06-11 20:30:00,Cameroon,Germany,Contending,Contending,4. Decisive / High Stakes,False,False,0,2,2,2
+43950037,2002,32 Teams (1998-2022),Group F,2002-06-12 15:30:00,Sweden,Argentina,Contending,Contending,4. Decisive / High Stakes,False,False,1,1,2,0
+43950038,2002,32 Teams (1998-2022),Group F,2002-06-12 15:30:00,Nigeria,England,Eliminated,Contending,3. One-sided Dead Rubber,True,False,0,0,0,0
+43950040,2002,32 Teams (1998-2022),Group B,2002-06-12 20:30:00,Slovenia,Paraguay,Eliminated,Contending,3. One-sided Dead Rubber,True,False,1,3,4,2
+43950039,2002,32 Teams (1998-2022),Group B,2002-06-12 20:30:00,South Africa,Spain,Contending,Qualified,3. One-sided Dead Rubber,True,False,2,3,5,1
+43950041,2002,32 Teams (1998-2022),Group C,2002-06-13 15:30:00,Costa Rica,Brazil,Contending,Qualified,3. One-sided Dead Rubber,True,False,2,5,7,3
+43950042,2002,32 Teams (1998-2022),Group C,2002-06-13 15:30:00,Turkey,China,Contending,Eliminated,3. One-sided Dead Rubber,True,False,3,0,3,3
+43950044,2002,32 Teams (1998-2022),Group G,2002-06-13 20:30:00,Ecuador,Croatia,Contending,Contending,4. Decisive / High Stakes,False,False,1,0,1,1
+43950043,2002,32 Teams (1998-2022),Group G,2002-06-13 20:30:00,Mexico,Italy,Contending,Contending,4. Decisive / High Stakes,False,False,1,1,2,0
+43950045,2002,32 Teams (1998-2022),Group H,2002-06-14 15:30:00,Tunisia,Japan,Contending,Contending,4. Decisive / High Stakes,False,False,0,2,2,2
+43950046,2002,32 Teams (1998-2022),Group H,2002-06-14 15:30:00,Belgium,Russia,Contending,Contending,4. Decisive / High Stakes,False,False,3,2,5,1
+43950047,2002,32 Teams (1998-2022),Group D,2002-06-14 20:30:00,Portugal,South Korea,Contending,Contending,4. Decisive / High Stakes,False,False,0,1,1,1
+43950048,2002,32 Teams (1998-2022),Group D,2002-06-14 20:30:00,Poland,USA,Eliminated,Contending,3. One-sided Dead Rubber,True,False,3,1,4,2
+97410033,2006,32 Teams (1998-2022),Group A,2006-06-20 16:00:00,Ecuador,Germany,Qualified,Qualified,1. Both Qualified,True,True,0,3,3,3
+97410034,2006,32 Teams (1998-2022),Group A,2006-06-20 16:00:00,Costa Rica,Poland,Eliminated,Eliminated,2. Both Eliminated,True,True,1,2,3,1
+97410035,2006,32 Teams (1998-2022),Group B,2006-06-20 21:00:00,Sweden,England,Contending,Qualified,3. One-sided Dead Rubber,True,False,2,2,4,0
+97410036,2006,32 Teams (1998-2022),Group B,2006-06-20 21:00:00,Paraguay,Trinidad and Tobago,Eliminated,Contending,3. One-sided Dead Rubber,True,False,2,0,2,2
+97410040,2006,32 Teams (1998-2022),Group D,2006-06-21 16:00:00,Iran,Angola,Eliminated,Contending,3. One-sided Dead Rubber,True,False,1,1,2,0
+97410039,2006,32 Teams (1998-2022),Group D,2006-06-21 16:00:00,Portugal,Mexico,Qualified,Contending,3. One-sided Dead Rubber,True,False,2,1,3,1
+97410037,2006,32 Teams (1998-2022),Group C,2006-06-21 21:00:00,Netherlands,Argentina,Qualified,Qualified,1. Both Qualified,True,True,0,0,0,0
+97410038,2006,32 Teams (1998-2022),Group C,2006-06-21 21:00:00,Côte d'Ivoire,Serbia and Montenegro,Eliminated,Eliminated,2. Both Eliminated,True,True,3,2,5,1
+97410041,2006,32 Teams (1998-2022),Group E,2006-06-22 16:00:00,Czech Republic,Italy,Contending,Contending,4. Decisive / High Stakes,False,False,0,2,2,2
+97410042,2006,32 Teams (1998-2022),Group E,2006-06-22 16:00:00,Ghana,USA,Contending,Contending,4. Decisive / High Stakes,False,False,2,1,3,1
+97410043,2006,32 Teams (1998-2022),Group F,2006-06-22 21:00:00,Japan,Brazil,Contending,Qualified,3. One-sided Dead Rubber,True,False,1,4,5,3
+97410044,2006,32 Teams (1998-2022),Group F,2006-06-22 21:00:00,Croatia,Australia,Contending,Contending,4. Decisive / High Stakes,False,False,2,2,4,0
+97410048,2006,32 Teams (1998-2022),Group H,2006-06-23 16:00:00,Ukraine,Tunisia,Contending,Contending,4. Decisive / High Stakes,False,False,1,0,1,1
+97410047,2006,32 Teams (1998-2022),Group H,2006-06-23 16:00:00,Saudi Arabia,Spain,Contending,Qualified,3. One-sided Dead Rubber,True,False,0,1,1,1
+97410045,2006,32 Teams (1998-2022),Group G,2006-06-23 21:00:00,Togo,France,Eliminated,Contending,3. One-sided Dead Rubber,True,False,0,2,2,2
+97410046,2006,32 Teams (1998-2022),Group G,2006-06-23 21:00:00,Switzerland,South Korea,Contending,Contending,4. Decisive / High Stakes,False,False,2,0,2,2
+300061450,2010,32 Teams (1998-2022),Group A,2010-06-22 16:00:00,Mexico,Uruguay,Contending,Contending,4. Decisive / High Stakes,False,False,0,1,1,1
+300061449,2010,32 Teams (1998-2022),Group A,2010-06-22 16:00:00,France,South Africa,Contending,Contending,4. Decisive / High Stakes,False,False,1,2,3,1
+300111115,2010,32 Teams (1998-2022),Group B,2010-06-22 20:30:00,Nigeria,South Korea,Contending,Contending,4. Decisive / High Stakes,False,False,2,2,4,0
+300061455,2010,32 Teams (1998-2022),Group B,2010-06-22 20:30:00,Greece,Argentina,Contending,Contending,4. Decisive / High Stakes,False,False,0,2,2,2
+300061462,2010,32 Teams (1998-2022),Group C,2010-06-23 16:00:00,Slovenia,England,Contending,Contending,4. Decisive / High Stakes,False,False,0,1,1,1
+300061461,2010,32 Teams (1998-2022),Group C,2010-06-23 16:00:00,USA,Algeria,Contending,Contending,4. Decisive / High Stakes,False,False,1,0,1,1
+300061468,2010,32 Teams (1998-2022),Group D,2010-06-23 20:30:00,Ghana,Germany,Contending,Contending,4. Decisive / High Stakes,False,False,0,1,1,1
+300061467,2010,32 Teams (1998-2022),Group D,2010-06-23 20:30:00,Australia,Serbia,Contending,Contending,4. Decisive / High Stakes,False,False,2,1,3,1
+300061480,2010,32 Teams (1998-2022),Group F,2010-06-24 16:00:00,Slovakia,Italy,Contending,Contending,4. Decisive / High Stakes,False,False,3,2,5,1
+300061479,2010,32 Teams (1998-2022),Group F,2010-06-24 16:00:00,Paraguay,New Zealand,Contending,Contending,4. Decisive / High Stakes,False,False,0,0,0,0
+300061474,2010,32 Teams (1998-2022),Group E,2010-06-24 20:30:00,Denmark,Japan,Contending,Contending,4. Decisive / High Stakes,False,False,1,3,4,2
+300061473,2010,32 Teams (1998-2022),Group E,2010-06-24 20:30:00,Cameroon,Netherlands,Contending,Contending,4. Decisive / High Stakes,False,False,1,2,3,1
+300111111,2010,32 Teams (1998-2022),Group G,2010-06-25 16:00:00,Portugal,Brazil,Contending,Qualified,3. One-sided Dead Rubber,True,False,0,0,0,0
+300061486,2010,32 Teams (1998-2022),Group G,2010-06-25 16:00:00,North Korea,Côte d'Ivoire,Eliminated,Contending,3. One-sided Dead Rubber,True,False,0,3,3,3
+300061491,2010,32 Teams (1998-2022),Group H,2010-06-25 20:30:00,Chile,Spain,Contending,Contending,4. Decisive / High Stakes,False,False,1,2,3,1
+300061492,2010,32 Teams (1998-2022),Group H,2010-06-25 20:30:00,Switzerland,Honduras,Contending,Contending,4. Decisive / High Stakes,False,False,0,0,0,0
+300186467,2014,32 Teams (1998-2022),Group B,2014-06-23 13:00:00,Australia,Spain,Eliminated,Eliminated,2. Both Eliminated,True,True,0,3,3,3
+300186470,2014,32 Teams (1998-2022),Group B,2014-06-23 13:00:00,Netherlands,Chile,Qualified,Qualified,1. Both Qualified,True,True,2,0,2,2
+300186472,2014,32 Teams (1998-2022),Group A,2014-06-23 17:00:00,Cameroon,Brazil,Eliminated,Contending,3. One-sided Dead Rubber,True,False,1,4,5,3
+300186452,2014,32 Teams (1998-2022),Group A,2014-06-23 17:00:00,Croatia,Mexico,Contending,Contending,4. Decisive / High Stakes,False,False,1,3,4,2
+300186465,2014,32 Teams (1998-2022),Group D,2014-06-24 13:00:00,Italy,Uruguay,Contending,Contending,4. Decisive / High Stakes,False,False,0,1,1,1
+300186484,2014,32 Teams (1998-2022),Group D,2014-06-24 13:00:00,Costa Rica,England,Contending,Contending,4. Decisive / High Stakes,False,False,0,0,0,0
+300186457,2014,32 Teams (1998-2022),Group C,2014-06-24 16:00:00,Japan,Colombia,Contending,Qualified,3. One-sided Dead Rubber,True,False,1,4,5,3
+300186455,2014,32 Teams (1998-2022),Group C,2014-06-24 17:00:00,Greece,Côte d'Ivoire,Contending,Contending,4. Decisive / High Stakes,False,False,2,1,3,1
+300186458,2014,32 Teams (1998-2022),Group F,2014-06-25 13:00:00,Nigeria,Argentina,Contending,Qualified,3. One-sided Dead Rubber,True,False,2,3,5,1
+300186464,2014,32 Teams (1998-2022),Group F,2014-06-25 13:00:00,Bosnia and Herzegovina,Iran,Eliminated,Contending,3. One-sided Dead Rubber,True,False,3,1,4,2
+300186482,2014,32 Teams (1998-2022),Group E,2014-06-25 16:00:00,Honduras,Switzerland,Contending,Contending,4. Decisive / High Stakes,False,False,0,3,3,3
+300186515,2014,32 Teams (1998-2022),Group E,2014-06-25 17:00:00,Ecuador,France,Contending,Contending,4. Decisive / High Stakes,False,False,0,0,0,0
+300186469,2014,32 Teams (1998-2022),Group G,2014-06-26 13:00:00,USA,Germany,Contending,Contending,4. Decisive / High Stakes,False,False,0,1,1,1
+300186476,2014,32 Teams (1998-2022),Group G,2014-06-26 13:00:00,Portugal,Ghana,Contending,Contending,4. Decisive / High Stakes,False,False,2,1,3,1
+300186480,2014,32 Teams (1998-2022),Group H,2014-06-26 17:00:00,South Korea,Belgium,Contending,Qualified,3. One-sided Dead Rubber,True,False,0,1,1,1
+300186506,2014,32 Teams (1998-2022),Group H,2014-06-26 17:00:00,Algeria,Russia,Contending,Contending,4. Decisive / High Stakes,False,False,1,1,2,0
+300186520,2018,32 Teams (1998-2022),Group A,2018-06-25 17:00:00,Saudi Arabia,Egypt,Eliminated,Eliminated,2. Both Eliminated,True,True,2,1,3,1
+300186521,2018,32 Teams (1998-2022),Group A,2018-06-25 18:00:00,Uruguay,Russia,Qualified,Qualified,1. Both Qualified,True,True,3,0,3,3
+300186527,2018,32 Teams (1998-2022),Group B,2018-06-25 20:00:00,Spain,Morocco,Contending,Eliminated,3. One-sided Dead Rubber,True,False,2,2,4,0
+300186526,2018,32 Teams (1998-2022),Group B,2018-06-25 21:00:00,Iran,Portugal,Contending,Contending,4. Decisive / High Stakes,False,False,1,1,2,0
+300186532,2018,32 Teams (1998-2022),Group C,2018-06-26 17:00:00,Denmark,France,Contending,Qualified,3. One-sided Dead Rubber,True,False,0,0,0,0
+300186533,2018,32 Teams (1998-2022),Group C,2018-06-26 17:00:00,Australia,Peru,Contending,Eliminated,3. One-sided Dead Rubber,True,False,0,2,2,2
+300186538,2018,32 Teams (1998-2022),Group D,2018-06-26 21:00:00,Nigeria,Argentina,Contending,Contending,4. Decisive / High Stakes,False,False,1,2,3,1
+300186539,2018,32 Teams (1998-2022),Group D,2018-06-26 21:00:00,Iceland,Croatia,Contending,Qualified,3. One-sided Dead Rubber,True,False,1,2,3,1
+300186551,2018,32 Teams (1998-2022),Group F,2018-06-27 17:00:00,South Korea,Germany,Contending,Contending,4. Decisive / High Stakes,False,False,2,0,2,2
+300186550,2018,32 Teams (1998-2022),Group F,2018-06-27 19:00:00,Mexico,Sweden,Contending,Contending,4. Decisive / High Stakes,False,False,0,3,3,3
+300186544,2018,32 Teams (1998-2022),Group E,2018-06-27 21:00:00,Switzerland,Costa Rica,Contending,Eliminated,3. One-sided Dead Rubber,True,False,2,2,4,0
+300186545,2018,32 Teams (1998-2022),Group E,2018-06-27 21:00:00,Serbia,Brazil,Contending,Contending,4. Decisive / High Stakes,False,False,0,2,2,2
+300186562,2018,32 Teams (1998-2022),Group H,2018-06-28 17:00:00,Japan,Poland,Contending,Eliminated,3. One-sided Dead Rubber,True,False,0,1,1,1
+300186563,2018,32 Teams (1998-2022),Group H,2018-06-28 18:00:00,Senegal,Colombia,Contending,Contending,4. Decisive / High Stakes,False,False,0,1,1,1
+300186556,2018,32 Teams (1998-2022),Group G,2018-06-28 20:00:00,England,Belgium,Qualified,Qualified,1. Both Qualified,True,True,0,1,1,1
+300186557,2018,32 Teams (1998-2022),Group G,2018-06-28 21:00:00,Panama,Tunisia,Eliminated,Eliminated,2. Both Eliminated,True,True,1,2,3,1
+300186584,2022,32 Teams (1998-2022),Group A,2022-11-29 18:00:00,Netherlands,Qatar,Contending,Eliminated,3. One-sided Dead Rubber,True,False,2,0,2,2
+300186585,2022,32 Teams (1998-2022),Group A,2022-11-29 18:00:00,Ecuador,Senegal,Contending,Contending,4. Decisive / High Stakes,False,False,1,2,3,1
+300186590,2022,32 Teams (1998-2022),Group B,2022-11-29 22:00:00,Wales,England,Contending,Contending,4. Decisive / High Stakes,False,False,0,3,3,3
+300186591,2022,32 Teams (1998-2022),Group B,2022-11-29 22:00:00,Iran,USA,Contending,Contending,4. Decisive / High Stakes,False,False,0,1,1,1
+300186602,2022,32 Teams (1998-2022),Group D,2022-11-30 18:00:00,Australia,Denmark,Contending,Contending,4. Decisive / High Stakes,False,False,1,0,1,1
+300186603,2022,32 Teams (1998-2022),Group D,2022-11-30 18:00:00,Tunisia,France,Contending,Qualified,3. One-sided Dead Rubber,True,False,1,0,1,1
+300186596,2022,32 Teams (1998-2022),Group C,2022-11-30 22:00:00,Poland,Argentina,Contending,Contending,4. Decisive / High Stakes,False,False,0,2,2,2
+300186597,2022,32 Teams (1998-2022),Group C,2022-11-30 22:00:00,Saudi Arabia,Mexico,Contending,Contending,4. Decisive / High Stakes,False,False,1,2,3,1
+300186614,2022,32 Teams (1998-2022),Group F,2022-12-01 18:00:00,Croatia,Belgium,Contending,Contending,4. Decisive / High Stakes,False,False,0,0,0,0
+300186615,2022,32 Teams (1998-2022),Group F,2022-12-01 18:00:00,Canada,Morocco,Eliminated,Contending,3. One-sided Dead Rubber,True,False,1,2,3,1
+300186608,2022,32 Teams (1998-2022),Group E,2022-12-01 22:00:00,Japan,Spain,Contending,Contending,4. Decisive / High Stakes,False,False,2,1,3,1
+300186609,2022,32 Teams (1998-2022),Group E,2022-12-01 22:00:00,Costa Rica,Germany,Contending,Contending,4. Decisive / High Stakes,False,False,2,4,6,2
+300186626,2022,32 Teams (1998-2022),Group H,2022-12-02 18:00:00,Ghana,Uruguay,Contending,Contending,4. Decisive / High Stakes,False,False,0,2,2,2
+300186627,2022,32 Teams (1998-2022),Group H,2022-12-02 18:00:00,South Korea,Portugal,Contending,Qualified,3. One-sided Dead Rubber,True,False,2,1,3,1
+300186620,2022,32 Teams (1998-2022),Group G,2022-12-02 22:00:00,Serbia,Switzerland,Contending,Contending,4. Decisive / High Stakes,False,False,2,3,5,1
+300186621,2022,32 Teams (1998-2022),Group G,2022-12-02 22:00:00,Cameroon,Brazil,Contending,Qualified,3. One-sided Dead Rubber,True,False,1,0,1,1
+300186654,2026,48 Teams (2026),Group B,2026-06-24 12:00:00,Bosnia and Herzegovina,Qatar,Contending,Contending,4. Decisive / High Stakes,False,False,3,1,4,2
+300186655,2026,48 Teams (2026),Group B,2026-06-24 12:00:00,Switzerland,Canada,Contending,Contending,4. Decisive / High Stakes,False,False,2,1,3,1
+300186660,2026,48 Teams (2026),Group C,2026-06-24 18:00:00,Morocco,Haiti,Contending,Contending,4. Decisive / High Stakes,False,False,4,2,6,2
+300186661,2026,48 Teams (2026),Group C,2026-06-24 18:00:00,Scotland,Brazil,Contending,Contending,4. Decisive / High Stakes,False,False,0,3,3,3
+300186648,2026,48 Teams (2026),Group A,2026-06-24 19:00:00,South Africa,South Korea,Contending,Contending,4. Decisive / High Stakes,False,False,1,0,1,1
+300186649,2026,48 Teams (2026),Group A,2026-06-24 19:00:00,Czech Republic,Mexico,Contending,Qualified,3. One-sided Dead Rubber,True,False,0,3,3,3
+300186672,2026,48 Teams (2026),Group E,2026-06-25 16:00:00,Curaçao,Côte d'Ivoire,Contending,Contending,4. Decisive / High Stakes,False,False,0,2,2,2
+300186673,2026,48 Teams (2026),Group E,2026-06-25 16:00:00,Ecuador,Germany,Contending,Qualified,3. One-sided Dead Rubber,True,False,2,1,3,1
+300186678,2026,48 Teams (2026),Group F,2026-06-25 18:00:00,Tunisia,Netherlands,Contending,Contending,4. Decisive / High Stakes,False,False,1,3,4,2
+300186679,2026,48 Teams (2026),Group F,2026-06-25 18:00:00,Japan,Sweden,Contending,Contending,4. Decisive / High Stakes,False,False,1,1,2,0
+300186666,2026,48 Teams (2026),Group D,2026-06-25 19:00:00,Paraguay,Australia,Contending,Contending,4. Decisive / High Stakes,False,False,0,0,0,0
+300186667,2026,48 Teams (2026),Group D,2026-06-25 19:00:00,Turkey,USA,Contending,Contending,4. Decisive / High Stakes,False,False,3,2,5,1
+300186696,2026,48 Teams (2026),Group I,2026-06-26 15:00:00,Senegal,Iraq,Contending,Contending,4. Decisive / High Stakes,False,False,5,0,5,5
+300186697,2026,48 Teams (2026),Group I,2026-06-26 15:00:00,Norway,France,Qualified,Qualified,1. Both Qualified,True,True,1,4,5,3
+300186690,2026,48 Teams (2026),Group H,2026-06-26 18:00:00,Uruguay,Spain,Contending,Contending,4. Decisive / High Stakes,False,False,0,1,1,1
+300186691,2026,48 Teams (2026),Group H,2026-06-26 19:00:00,Cabo Verde,Saudi Arabia,Contending,Contending,4. Decisive / High Stakes,False,False,0,0,0,0
+300186684,2026,48 Teams (2026),Group G,2026-06-26 20:00:00,New Zealand,Belgium,Contending,Contending,4. Decisive / High Stakes,False,False,1,5,6,4
+300186685,2026,48 Teams (2026),Group G,2026-06-26 20:00:00,Egypt,Iran,Contending,Contending,4. Decisive / High Stakes,False,False,1,1,2,0
+300186714,2026,48 Teams (2026),Group L,2026-06-27 17:00:00,Panama,England,Contending,Contending,4. Decisive / High Stakes,False,False,0,2,2,2
+300186715,2026,48 Teams (2026),Group L,2026-06-27 17:00:00,Croatia,Ghana,Contending,Contending,4. Decisive / High Stakes,False,False,2,1,3,1
+300186708,2026,48 Teams (2026),Group K,2026-06-27 19:30:00,Congo DR,Uzbekistan,Contending,Contending,4. Decisive / High Stakes,False,False,3,1,4,2
+300186709,2026,48 Teams (2026),Group K,2026-06-27 19:30:00,Colombia,Portugal,Qualified,Contending,3. One-sided Dead Rubber,True,False,0,0,0,0
+300186702,2026,48 Teams (2026),Group J,2026-06-27 21:00:00,Algeria,Austria,Contending,Contending,4. Decisive / High Stakes,False,False,3,3,6,0
+300186703,2026,48 Teams (2026),Group J,2026-06-27 21:00:00,Jordan,Argentina,Contending,Contending,4. Decisive / High Stakes,False,False,1,3,4,2
