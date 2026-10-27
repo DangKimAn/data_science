@@ -1,0 +1,137 @@
+DANH MỤC CHỐT: 10 BIỂU ĐỒ FIFA WORLD CUP (1930–2026)
+===================================================
+
+TARGET CHUNG
+Qua các giai đoạn mở rộng World Cup, sức hút khán giả tại sân và tính cạnh tranh của các trận đấu thay đổi như thế nào?
+
+Phạm vi: dataset hiện có trong repo, gồm cả 2026 theo lựa chọn của nhóm. Elo dùng điểm TRƯỚC GIẢI, không phải điểm cập nhật trước từng trận. Các hình mô tả xu hướng và mối liên hệ; không chứng minh mở rộng là nguyên nhân gây thay đổi.
+
+PHÂN CÔNG BẰNG CHỨNG
+- Câu 1 — Sức hút khán giả mỗi trận: biểu đồ 01, 02, 03.
+- Câu 2 — Chênh lệch chuyên môn và trận một chiều: biểu đồ 04, 05, 06, 07.
+- Câu 3 — Cạnh tranh knockout và cơ hội tiến sâu của cửa dưới: biểu đồ 08, 09, 10.
+- Biểu đồ liên đoàn đã bỏ. Biểu đồ cửa dưới trước đây số 11 được đổi thành số 10.
+
+I. CÂU 1: MỞ RỘNG GIẢI CÓ ĐI CÙNG SUY GIẢM SỨC HÚT KHÁN GIẢ MỖI TRẬN KHÔNG?
+----------------------------------------------------------------------------
+
+01. QUY MÔ GIẢI VÀ KHÁN GIẢ TRUNG BÌNH MỖI TRẬN
+Loại: Combo chart — cột và đường, hai trục Y.
+Đọc hình: trục X là năm; cột là tổng số trận của kỳ; đường là khán giả trung bình/trận.
+Giải thích: số trận tăng không đồng nghĩa mỗi trận hấp dẫn hơn. Hình đặt quy mô và khán giả/trận cạnh nhau để quan sát khi giải mở rộng, khán giả mỗi trận có giảm, tăng hay biến động.
+Vai trò: bằng chứng chính trả lời câu 1 ở mức toàn giải.
+Giới hạn: hai trục có đơn vị khác nhau, không diễn giải giao điểm giữa cột và đường. Tổng khán giả tăng chưa đủ kết luận sức hút mỗi trận tăng; chưa đo doanh thu hay người xem truyền hình.
+Ảnh: chart_1_quy_mo_vs_khan_gia.png
+
+02. SỨC HÚT KHÁN GIẢ THEO VÒNG ĐẤU
+Loại: Biểu đồ đường theo kỳ.
+Đọc hình: so hai đường khán giả trung bình/trận của vòng bảng đầu và nhóm knockout.
+Giải thích: nếu khán giả mỗi trận thay đổi, sự thay đổi tập trung ở vòng bảng hay các trận loại trực tiếp? Khoảng cách sức hút giữa hai nhóm trận thay đổi ra sao?
+Vai trò: bổ sung câu 1 bằng cách phân tách giai đoạn, thay vì chỉ nhìn trung bình toàn giải.
+Giới hạn bản hiện có: script 01–05 giữ nguyên bản nhóm; nhóm knockout còn bao gồm tranh hạng ba. Vì vậy không đồng nhất hoàn toàn mẫu này với knockout chính của hình 08–10. Năm không có loại vòng tương ứng không phải là khán giả bằng 0.
+Ảnh: chart_2_suc_hut_theo_vong.png
+
+03. PHÂN PHỐI TỶ LỆ LẤP ĐẦY SÂN — BỔ TRỢ
+Loại: Boxplot theo giai đoạn thể thức và nhóm vòng.
+Đọc hình: đường giữa hộp là trung vị, hộp là khoảng từ tứ phân vị 1 đến 3; các điểm ngoài râu là ngoại lệ theo quy ước boxplot.
+Giải thích: mức sử dụng chỗ ngồi và độ phân tán có khác nhau giữa các giai đoạn/vòng không? Khán giả đông có đi cùng tỷ lệ lấp đầy cao không?
+Vai trò: bổ trợ câu 1, đặt lượng khán giả trong tương quan với sức chứa.
+Giới hạn: một phần sức chứa được ước lượng từ khán giả; không coi occupancy là bằng chứng đã kiểm soát hoàn toàn sân bãi. Bản nhóm hiện gộp mọi vòng bảng, gồm vòng bảng thứ hai, và nhóm knockout có tranh hạng ba.
+Ảnh: chart_3_phan_phoi_lap_day_san.png
+
+KẾT LUẬN CẦN RÚT RA CHO CÂU 1
+Khán giả mỗi trận tăng, giảm hay không có xu hướng nhất quán? Khác biệt nằm ở nhóm vòng nào? Occupancy hỗ trợ nhận xét đến mức nào khi sức chứa còn ước lượng? Không dùng riêng tổng khán giả để trả lời.
+
+II. CÂU 2: MỞ RỘNG GIẢI CÓ ĐI CÙNG CHÊNH LỆCH CHUYÊN MÔN VÀ NHIỀU TRẬN MỘT CHIỀU HƠN KHÔNG?
+-------------------------------------------------------------------------------------------------
+
+04. CƠ CẤU CÁCH BIỆT TỶ SỐ VÒNG BẢNG
+Loại: Cột chồng 100% theo kỳ.
+Đọc hình: mỗi cột gồm ba nhóm cách biệt — ≤1 bàn, 2 bàn, ≥3 bàn; tổng tỷ lệ bằng 100%.
+Giải thích: tỷ trọng trận sát nút/hòa và thắng đậm thay đổi như thế nào qua các kỳ và mốc mở rộng?
+Vai trò: bằng chứng chính về mức cân bằng TỶ SỐ của câu 2.
+Giới hạn: tỷ số không tự xác định sức mạnh trước trận; cần đối chiếu Elo ở hình 07. Đọc số thực tế trên cột, không dùng phát biểu tuyệt đối trong tiêu đề cũ rằng mọi kỳ đều có 55–70% trận sát nút. Bộ lọc gốc dựa vào Stage_Detail; Group 6 năm 1950 còn mang nhãn vòng bảng đầu trong nguồn.
+Ảnh: chart_4_co_cau_cach_biet_vong_bang.png
+
+05. THẮNG ĐẬM VÒNG BẢNG SO VỚI NHÓM KNOCKOUT SỚM
+Loại: Hai đường tỷ lệ thắng cách biệt ≥3 bàn theo kỳ.
+Đọc hình: so tỷ lệ thắng đậm vòng bảng đầu với nhóm Early Knockout được mã gốc lựa chọn.
+Giải thích: các trận một chiều tập trung ở vòng bảng hay nhóm loại trực tiếp sớm? Hai nhóm có cùng xu hướng không?
+Vai trò: phân tích câu 2 theo giai đoạn thi đấu.
+Giới hạn quan trọng: bản 01–05 được giữ nguyên. Early Knockout năm 2026 gồm CẢ R32 VÀ R16: 4/24 = 16,67%. Nếu chỉ lấy knockout đầu tiên R32 thì là 2/16 = 12,50%. Không gọi mẫu gộp đó là riêng R32. Các kỳ không có R16 vẫn có thể bắt đầu knockout từ tứ kết/bán kết/chung kết; hình gốc chưa đại diện đầy đủ các trường hợp đó.
+Ảnh: chart_5_ty_le_thang_dam_bang_vs_knockout.png
+
+06. THẮNG ĐẬM THEO LƯỢT VÒNG BẢNG
+Loại: Cột nhóm theo giai đoạn thể thức; ba cột là lượt 1, 2, 3.
+Đọc hình: chiều cao cột là tỷ lệ cách biệt ≥3 bàn; nhãn thể hiện phần trăm và số trận thắng đậm/tổng trận hợp lệ.
+Giải thích: lượt cuối có nhiều trận một chiều hơn các lượt trước không? Đặc điểm giữa các lượt có thay đổi theo thể thức không?
+Vai trò: bổ sung câu 2 về tiến trình vòng bảng, không chỉ cơ cấu toàn bộ vòng.
+Mẫu: 696 trận; chỉ lấy vòng bảng đầu có lịch ba lượt tương thích, loại play-off/lượt đặc biệt.
+Lưu ý mẫu số: hình GỘP NHIỀU KỲ THEO THỂ THỨC. Trước 1982 dùng 6 kỳ, 48 trận/lượt; 24 đội dùng 4 kỳ, 48 trận/lượt; 32 đội dùng 7 kỳ, 112 trận/lượt; 48 đội dùng 1 kỳ 2026, 24 trận/lượt. Một kỳ 2026 vẫn có 72 trận vòng bảng, nhiều hơn 48 trận của một kỳ 32 đội.
+Giới hạn: không lấy số trận gộp để so quy mô một kỳ; không tự gọi lượt 3 là trận thủ tục. Danh sách kỳ sử dụng/loại nằm trong CSV.
+Ảnh: figures/06_thang_dam_theo_luot.png
+
+07. CHÊNH LỆCH ELO TRƯỚC GIẢI VÀ CÁCH BIỆT BÀN THẮNG
+Loại: Scatter, bốn ô theo giai đoạn thể thức, cùng thang đo.
+Đọc hình: mỗi chấm là một trận. Sang phải là Elo chênh lệch hơn; lên cao là tỷ số cách biệt hơn. Đường đen là trung vị theo nhóm gap 100 Elo có ít nhất 5 trận; đường ngang tại 3 bàn là ngưỡng thắng đậm.
+Giải thích: đội bước vào giải với sức mạnh chênh lệch lớn có tạo ra tỷ số một chiều hơn không? Mức liên hệ khác nhau giữa các giai đoạn ra sao?
+Vai trò: bổ sung thước đo sức mạnh TRƯỚC GIẢI cho câu 2, vượt ra ngoài việc chỉ đọc tỷ số sau trận.
+Mẫu: 747 trận vòng bảng đầu không có hiệp phụ/luân lưu, đủ Elo hai đội. Spearman là tương quan thứ hạng, không phải tỷ lệ phần trăm trận.
+Bằng chứng kèm: bảng theo kỳ/giai đoạn có mean/median gap, tỷ lệ gap ≥100 và mức bao phủ Elo; dùng chúng để đánh giá chênh lệch sức mạnh có tăng hay không. Scatter riêng lẻ chưa đủ trả lời xu hướng đó.
+Giới hạn: Elo cố định trước giải không phản ánh thay đổi phong độ trong giải; tương quan không chứng minh nhân quả.
+Ảnh: figures/07_elo_va_cach_biet.png
+
+KẾT LUẬN CẦN RÚT RA CHO CÂU 2
+Tỷ lệ trận một chiều có tăng không, xuất hiện ở vòng/lượt nào, có đi cùng gap Elo lớn hơn không? Phân biệt cân bằng tỷ số với sức mạnh trước giải; không tự xác định đội nào được tham dự nhờ tăng suất.
+
+III. CÂU 3: MỞ RỘNG GIẢI GẮN VỚI THAY ĐỔI NÀO VỀ CẠNH TRANH KNOCKOUT VÀ CƠ HỘI ĐI TIẾP?
+------------------------------------------------------------------------------------------------
+
+08. CÁCH PHÂN ĐỊNH TRẬN LOẠI TRỰC TIẾP
+Loại: Cột chồng 100% theo kỳ, bốn nhóm không đếm chồng.
+Đọc hình: xanh lam = thắng ≥2 bàn trong 90 phút; xanh lục = thắng 1 bàn trong 90 phút; vàng = hiệp phụ không luân lưu; cam = luân lưu. Tỷ lệ nằm trong mảng màu; n trên cột là số trận hợp lệ.
+Giải thích: knockout nghiêng về các trận thắng cách biệt trong 90 phút hay những trận phải phân định bằng hiệp phụ/luân lưu? Cơ cấu này thay đổi thế nào qua các kỳ?
+Vai trò: bằng chứng chính về CÁCH KẾT THÚC trận đấu cho câu 3.
+Mẫu: 249 trận hợp lệ, loại tranh hạng ba và 8 trận thuộc các cặp đá lại khỏi bốn nhóm hiện đại.
+Ngoại lệ thể thức: 1950 không có knockout, vùng xám không phải 0%. Năm 1974 và 1978 có hai vòng bảng, không có tứ kết/bán kết; sau khi loại tranh hạng ba chỉ còn chung kết nên n=1. Năm 1974 chung kết kết thúc trong 90 phút với cách biệt 1 bàn; năm 1978 chung kết kết thúc sau hiệp phụ. 100% ở hai kỳ này chỉ đại diện một trận.
+Giới hạn: hiệp phụ nhiều không chứng minh đội yếu chủ động tử thủ; n nhỏ không đại diện chắc chắn cho chất lượng cả kỳ giải.
+Ảnh: figures/08_cach_phan_dinh_knockout.png
+
+09. TỶ LỆ QUÁ 90 PHÚT THEO KỲ VÀ VÒNG
+Loại: Heatmap, cột là năm, hàng là vòng knockout.
+Đọc hình: màu đậm hơn là tỷ lệ quá 90 phút cao hơn. Mỗi ô ghi phần trăm và số trận quá 90 phút/tổng trận hợp lệ. Ví dụ 25% và 1/4 nghĩa là 1 trong 4 trận kéo dài quá 90 phút.
+Giải thích: xu hướng khó phân định tập trung ở vòng đầu hay vòng sâu? Việc xuất hiện R32 năm 2026 có đặc điểm gì so với các vòng còn lại?
+Vai trò: định vị theo VÒNG cho câu 3, bổ sung bức tranh toàn kỳ của hình 08.
+Mẫu: cùng 249 trận hợp lệ như hình 08; bao gồm bàn thắng vàng trong hiệp phụ.
+Giới hạn: ô xám có dấu — nghĩa là không có vòng hoặc không có mẫu hợp lệ, khác với 0% là có trận nhưng không quá 90 phút. Chung kết mỗi kỳ chỉ một trận; 100% tại đó không tương đương bằng chứng từ nhiều trận. R32 chỉ xuất hiện ở 2026 trong dataset.
+Ảnh: figures/09_heatmap_qua_90_phut.png
+
+10. TỶ LỆ CỬA DƯỚI ĐI TIẾP THEO ELO TRƯỚC GIẢI
+Loại: Biểu đồ điểm và khoảng tin cậy Wilson 95% theo kỳ.
+Đọc hình: chấm là tỷ lệ quan sát; thanh xám biểu diễn khoảng tin cậy. Chấm rỗng là kỳ có dưới 5 cặp hợp lệ. Nhãn ghi tỷ lệ và số lần cửa dưới đi tiếp/số cặp đủ điều kiện.
+Định nghĩa: cửa dưới rõ rệt có Elo trước giải thấp hơn đối thủ ít nhất 100 điểm. Tử số là số cặp cửa dưới đi tiếp; mẫu số là cặp knockout đủ Elo hai đội, gap ≥100 và biết đội đi tiếp.
+Giải thích: đội bị đánh giá thấp hơn trước giải có thực sự vượt qua đối thủ không? Tỷ lệ đó thay đổi ra sao theo kỳ?
+Vai trò: bằng chứng về KẾT QUẢ ĐI TIẾP cho câu 3; hiệp phụ hoặc luân lưu nhiều chưa tự chứng minh cửa dưới thành công.
+Mẫu: 253 cặp đầu vào; 145 cặp đạt ngưỡng chính và đủ điều kiện. Cặp có đá lại chỉ đếm một lần, dùng kết quả cuối cặp; loại tranh hạng ba. Năm 1950 không có knockout.
+Giới hạn: ngưỡng 100 là lựa chọn phân tích; bảng CSV có thêm ngưỡng 50 và 150 để xem độ nhạy. Thanh dài nghĩa là ước lượng kém chắc chắn hơn, không phải tỷ số hay số trận. Không kết luận mạnh khi mẫu nhỏ. Cửa dưới theo Elo trước giải không đồng nghĩa đội mới tham dự hoặc đội được bổ sung nhờ mở rộng.
+Ảnh: figures/10_cua_duoi_di_tiep.png
+
+KẾT LUẬN CẦN RÚT RA CHO CÂU 3
+Knockout có nhiều trận thắng dễ hay khó phân định hơn? Sự khác biệt nằm ở vòng nào? Khi đối thủ chênh lệch Elo rõ rệt, cửa dưới có đi tiếp nhiều hơn không? Đọc cả ba hình và số mẫu, không dùng riêng tỷ lệ hiệp phụ để kết luận.
+
+IV. CÁCH TỔNG HỢP ĐỂ TRẢ LỜI TARGET
+---------------------------------
+1. Dùng hình 01–03 kết luận về sức hút KHÁN GIẢ TẠI SÂN, không suy sang doanh thu hoặc người xem truyền hình.
+2. Dùng hình 04–07 kết luận về cân bằng TỶ SỐ và mức chênh lệch sức mạnh theo ELO TRƯỚC GIẢI.
+3. Dùng hình 08–10 kết luận về PHÂN ĐỊNH knockout và CỬA DƯỚI ĐI TIẾP.
+4. Không cần ba câu cùng cho một kết luận: khán giả có thể tăng trong khi chênh lệch ở một vòng tăng; nhiều hiệp phụ cũng chưa đồng nghĩa nhiều bất ngờ.
+5. Luôn ghi mẫu số, ngoại lệ thể thức và khác biệt số kỳ được gộp. Tỷ lệ gộp tính từ tổng tử số/tổng mẫu số, không lấy trung bình đơn giản của các tỷ lệ.
+6. Chủ nhà, sân bãi, luật và thời đại đồng thời thay đổi; dùng diễn đạt “xu hướng gắn với giai đoạn mở rộng”, không khẳng định quan hệ nhân quả.
+
+V. TỆP VÀ CÁCH SỬ DỤNG
+----------------------
+- Bản 01–05 của nhóm được giữ nguyên: visualize_charts_1_to_5.py và năm ảnh ngay trong visualization/. Các lưu ý ở trên mô tả đúng bộ lọc hiện có, không phải các lỗi đã được sửa trong bản gốc.
+- Phần 06–10: visualize_charts_6_to_10.py; ảnh PNG trong figures/; CSV mẫu và tổng hợp trong tables/.
+- CSV là số liệu tính từ đầu vào để kiểm tra, không phải dữ liệu nguồn mới và không phải hình bổ sung.
+- Nhật ký lần chạy được ghi riêng tại trang_thai_xuat_bieu_do.txt; chạy lại script không ghi đè danh mục giải thích này.
+- Nội dung của file này giải thích mục đích và cách diễn giải, không thay thế kết luận dựa trên số liệu thực tế của từng hình.

@@ -30,7 +30,7 @@ era_labels = {
     '16 Teams (1930-1978)': 'Kỷ nguyên 16 đội\n(1930 - 1978)',
     '24 Teams (1982-1994)': 'Kỷ nguyên 24 đội\n(1982 - 1994)',
     '32 Teams (1998-2022)': 'Kỷ nguyên 32 đội\n(1998 - 2022)',
-    '48 Teams (2026)': 'Kỷ nguyên 48 đội\n(2026 - Mô phỏng)'
+    '48 Teams (2026)': 'Kỷ nguyên 48 đội\n(2026)'
 }
 
 # --------------------------------------------------------------------------------
@@ -51,28 +51,19 @@ def plot_chart_1():
         label='Tổng số trận đấu (Cột trái)'
     )
 
-    # Đánh dấu cột 2026 là mô phỏng bằng hoa văn sọc (hatch)
-    bars[-1].set_hatch('///')
-    bars[-1].set_edgecolor('#c92a2a')
+    # Màu riêng đánh dấu kỳ mở rộng 48 đội, không biểu thị dữ liệu mô phỏng.
 
     # Trục phụ cho Khán giả trung bình/trận
     ax2 = ax1.twinx()
     
     # Vẽ đường lịch sử (1930-2022)
-    hist_mask = years <= 2022
+    hist_mask = years <= 2026
     line_hist = ax2.plot(
         years[hist_mask], mean_att[hist_mask],
         color='#1b4965', marker='o', markersize=6, linewidth=2.5,
-        label='Khán giả TB/trận (Lịch sử)'
+        label='Khán giả TB/trận'
     )
     
-    # Nối từ 2022 sang 2026 bằng nét đứt (Mô phỏng)
-    sim_mask = years >= 2022
-    line_sim = ax2.plot(
-        years[sim_mask], mean_att[sim_mask],
-        color='#d90429', marker='s', markersize=7, linewidth=2.5, linestyle='--',
-        label='Khán giả TB/trận (2026 Mô phỏng)'
-    )
 
     # Đánh dấu các mốc mở rộng thể thức bằng đường gióng dọc
     expansion_years = [1982, 1998, 2026]
@@ -116,7 +107,7 @@ def plot_chart_1():
     lines2, labels2 = ax2.get_legend_handles_labels()
     ax1.legend(lines + lines2, labels + labels2, loc='upper left', frameon=True, facecolor='white', framealpha=0.9)
 
-    fig.text(0.12, 0.01, '* Ghi chú: Dữ liệu năm 2026 là mô phỏng/ước tính theo tài liệu quy chuẩn; cột có hoa văn gạch sọc và nét đứt đỏ.', fontsize=8.5, fontstyle='italic', color='#555555')
+    fig.text(0.12, 0.01, '* Nguồn: dataset của nhóm, 1930–2026. Cột màu cam đánh dấu kỳ mở rộng lên 48 đội; hai trục có đơn vị khác nhau.', fontsize=8.5, fontstyle='italic', color='#555555')
     plt.tight_layout()
     output_path = os.path.join(OUTPUT_DIR, 'chart_1_quy_mo_vs_khan_gia.png')
     plt.savefig(output_path, dpi=300)
@@ -145,32 +136,20 @@ def plot_chart_2():
     comp_df['Group_Attendance'] = group_att
     comp_df['Knockout_Attendance'] = ko_att
 
-    # Vẽ đường Vòng bảng (1930-2022) & mô phỏng 2026
-    hist_years = [y for y in all_years if y <= 2022 and y in group_att.index]
+    # Vẽ đường Vòng bảng xuyên suốt các kỳ trong dataset.
+    hist_years = [y for y in all_years if y in group_att.index]
     ax.plot(
         hist_years, [group_att[y] for y in hist_years],
         color='#2a9d8f', marker='o', markersize=6, linewidth=2.5,
-        label='Vòng bảng đầu tiên (Lịch sử)'
-    )
-    # Nối sang 2026 nét đứt
-    ax.plot(
-        [2022, 2026], [group_att[2022], group_att[2026]],
-        color='#2a9d8f', marker='o', markersize=6, linewidth=2.5, linestyle='--',
-        label='Vòng bảng (2026 Mô phỏng)'
+        label='Vòng bảng đầu tiên'
     )
 
-    # Vẽ đường Knockout (1930-2022) & mô phỏng 2026
-    hist_ko_years = [y for y in all_years if y <= 2022 and y in ko_att.index]
+    # Vẽ đường Knockout xuyên suốt các kỳ trong dataset.
+    hist_ko_years = [y for y in all_years if y in ko_att.index]
     ax.plot(
         hist_ko_years, [ko_att[y] for y in hist_ko_years],
         color='#e76f51', marker='s', markersize=6, linewidth=2.5,
-        label='Vòng Loại trực tiếp (Lịch sử)'
-    )
-    # Nối sang 2026 nét đứt
-    ax.plot(
-        [2022, 2026], [ko_att[2022], ko_att[2026]],
-        color='#e76f51', marker='s', markersize=6, linewidth=2.5, linestyle='--',
-        label='Vòng Knockout (2026 Mô phỏng)'
+        label='Vòng loại trực tiếp'
     )
 
     # Đánh dấu các mốc mở rộng thể thức
@@ -211,7 +190,7 @@ def plot_chart_2():
     )
     ax.legend(loc='upper left', frameon=True, facecolor='white', framealpha=0.9, fontsize=9.5)
 
-    fig.text(0.12, 0.01, '* Ghi chú: Dữ liệu năm 2026 là mô phỏng/ước tính (biểu thị bằng nét đứt). 1934-1938 đá loại trực tiếp; 1950 đá vòng tròn chung kết.', fontsize=8.5, fontstyle='italic', color='#555555')
+    fig.text(0.12, 0.01, '* Nguồn: dataset của nhóm, 1930–2026. Năm 1934 và 1938 đá loại trực tiếp; năm 1950 có vòng bảng chung kết.', fontsize=8.5, fontstyle='italic', color='#555555')
     plt.tight_layout()
     output_path = os.path.join(OUTPUT_DIR, 'chart_2_suc_hut_theo_vong.png')
     plt.savefig(output_path, dpi=300)
@@ -274,7 +253,7 @@ def plot_chart_3():
             ax.text(i + 0.16, med_ko + 2.5, f'{med_ko:.1f}%', ha='center', fontsize=8.5, fontweight='bold', color='#9b2226')
 
     ax.legend(title='Phân loại vòng đấu', loc='lower right', frameon=True, facecolor='white', framealpha=0.9)
-    fig.text(0.12, 0.01, '* Lưu ý: Sức chứa sân có thành phần ước tính theo tài liệu quy chuẩn; Kỷ nguyên 48 đội (2026) là dữ liệu mô phỏng.', fontsize=8.5, fontstyle='italic', color='#555555')
+    fig.text(0.12, 0.01, '* Nguồn: dataset của nhóm, 1930–2026. Một phần sức chứa sân được ước lượng; tỷ lệ lấp đầy chỉ dùng làm bằng chứng bổ trợ.', fontsize=8.5, fontstyle='italic', color='#555555')
     plt.tight_layout()
     output_path = os.path.join(OUTPUT_DIR, 'chart_3_phan_phoi_lap_day_san.png')
     plt.savefig(output_path, dpi=300)
@@ -317,13 +296,6 @@ def plot_chart_4():
     p2 = ax.bar(years, cach_biet, bottom=sat_nut, width=bar_width, color=colors[1], edgecolor='white', linewidth=0.8, label='Cách biệt vừa phải (2 bàn)')
     p3 = ax.bar(years, thang_dam, bottom=sat_nut + cach_biet, width=bar_width, color=colors[2], edgecolor='white', linewidth=0.8, label='Thắng đậm áp đảo (≥ 3 bàn)')
 
-    # Đánh dấu cột 2026 mô phỏng
-    p1[-1].set_hatch('///')
-    p2[-1].set_hatch('///')
-    p3[-1].set_hatch('///')
-    p1[-1].set_edgecolor('#333333')
-    p2[-1].set_edgecolor('#333333')
-    p3[-1].set_edgecolor('#333333')
 
     # Hiển thị % bên trong thanh cột nếu đủ diện tích
     for i, yr in enumerate(years):
@@ -359,7 +331,7 @@ def plot_chart_4():
     )
     ax.legend(loc='lower left', bbox_to_anchor=(0.01, 0.02), frameon=True, facecolor='white', framealpha=0.95, fontsize=10)
 
-    fig.text(0.12, 0.01, '* Lưu ý: Kỳ 1934 và 1938 không tổ chức vòng bảng. Năm 2026 là dữ liệu mô phỏng (cột có hoa văn sọc gạch).', fontsize=8.5, fontstyle='italic', color='#555555')
+    fig.text(0.12, 0.01, '* Nguồn: dataset của nhóm, 1930–2026. Kỳ 1934 và 1938 không tổ chức vòng bảng. Mỗi cột gồm ba nhóm cách biệt tỷ số.', fontsize=8.5, fontstyle='italic', color='#555555')
     plt.tight_layout()
     output_path = os.path.join(OUTPUT_DIR, 'chart_4_co_cau_cach_biet_vong_bang.png')
     plt.savefig(output_path, dpi=300)
@@ -388,33 +360,21 @@ def plot_chart_5():
 
     all_years = sorted(list(set(group_blowout.index.tolist() + early_ko_blowout.index.tolist())))
 
-    # Vẽ đường Vòng bảng (Lịch sử + Mô phỏng 2026)
-    grp_hist_years = [y for y in group_blowout.index if y <= 2022]
+    # Giữ nguyên cách tính, vẽ một đường liên tục đến 2026.
+    grp_hist_years = list(group_blowout.index)
     ax.plot(
         grp_hist_years, [group_blowout[y] for y in grp_hist_years],
         color='#1d3557', marker='o', markersize=6.5, linewidth=2.5,
-        label='Vòng bảng đầu tiên (Lịch sử)'
+        label='Vòng bảng đầu tiên'
     )
-    if 2026 in group_blowout.index and 2022 in group_blowout.index:
-        ax.plot(
-            [2022, 2026], [group_blowout[2022], group_blowout[2026]],
-            color='#1d3557', marker='o', markersize=6.5, linewidth=2.5, linestyle='--',
-            label='Vòng bảng (2026 Mô phỏng)'
-        )
 
-    # Vẽ đường Vòng Knockout đầu tiên (Lịch sử + Mô phỏng 2026)
-    ko_hist_years = [y for y in early_ko_blowout.index if y <= 2022]
+    # Giữ nguyên nhóm Early Knockout của bản cũ.
+    ko_hist_years = list(early_ko_blowout.index)
     ax.plot(
         ko_hist_years, [early_ko_blowout[y] for y in ko_hist_years],
         color='#e63946', marker='s', markersize=6.5, linewidth=2.5,
-        label='Vòng Knockout đầu tiên [R16/R32] (Lịch sử)'
+        label='Nhóm knockout sớm [R16/R32]'
     )
-    if 2026 in early_ko_blowout.index and 2022 in early_ko_blowout.index:
-        ax.plot(
-            [2022, 2026], [early_ko_blowout[2022], early_ko_blowout[2026]],
-            color='#e63946', marker='s', markersize=6.5, linewidth=2.5, linestyle='--',
-            label='Vòng Knockout đầu tiên (2026 Mô phỏng)'
-        )
 
     # Đánh dấu các mốc mở rộng thể thức
     for ey, elab in zip([1982, 1998, 2026], ['Mở rộng 24 đội (1982)', 'Mở rộng 32 đội (1998)', 'Mở rộng 48 đội (2026)']):
@@ -439,7 +399,7 @@ def plot_chart_5():
     )
     ax.legend(loc='upper right', frameon=True, facecolor='white', framealpha=0.9, fontsize=9.5)
 
-    fig.text(0.12, 0.01, '* Ghi chú: Thắng đậm định nghĩa là chênh lệch tỷ số ≥ 3 bàn. Vòng Knockout đầu tiên là R16 (1934, 1938, 1986-2022) và R32 (2026 mô phỏng).', fontsize=8.5, fontstyle='italic', color='#555555')
+    fig.text(0.12, 0.01, '* Nguồn: dataset của nhóm, 1930–2026. Thắng đậm: cách biệt ≥3 bàn. Giữ bộ lọc Early Knockout cũ: năm 2026 gộp cả R32 và R16.', fontsize=8.5, fontstyle='italic', color='#555555')
     plt.tight_layout()
     output_path = os.path.join(OUTPUT_DIR, 'chart_5_ty_le_thang_dam_bang_vs_knockout.png')
     plt.savefig(output_path, dpi=300)
