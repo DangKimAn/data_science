@@ -50,10 +50,20 @@ def write_table(data, name):
 
 
 def save(fig, name, note):
-    """Thêm ghi chú phạm vi/nguồn rồi xuất ảnh PNG 300 DPI."""
-    fig.text(.015, .015, '1930–2026 | Nguồn: CSV do người dùng cung cấp trong production/.\n' + note,
-             fontsize=9, va='bottom', color='#475569')
-    fig.tight_layout(rect=(0, .14, 1, .95))
+    """Chú thích một dòng theo kiểu hình 01–05; giải thích dài xem danh mục."""
+    short_notes = {
+        '06_thang_dam_theo_luot': 'Tỷ lệ gộp theo giai đoạn; nhãn = % (số trận thắng đậm/tổng trận).',
+        '07_elo_va_cach_biet': 'Elo trước giải; mỗi chấm là một trận, đường đen là trung vị theo nhóm Elo.',
+        '08_cach_phan_dinh_knockout': 'Loại tranh hạng ba và cặp đá lại; 1950 không có knockout, 1974/1978 chỉ có chung kết.',
+        '09_heatmap_qua_90_phut': 'Ô xám: không có vòng/mẫu hợp lệ; 1950 không có knockout. Nhãn = % và số trận/tổng trận.',
+        '10_cua_duoi_di_tiep': 'Cửa dưới: thấp hơn ≥100 Elo trước giải; mỗi cặp tính một lần, loại tranh hạng ba.',
+    }
+    for ax in fig.axes:
+        if ax.get_xlabel() == 'Năm tổ chức':
+            ax.set_xlabel('Năm diễn ra World Cup', fontsize=12, fontweight='bold', labelpad=9)
+    fig.tight_layout(rect=(0, .055, 1, .98))
+    fig.text(.035, .012, '* Nguồn: dataset của nhóm, 1930–2026. ' + short_notes.get(name, note.replace('\n', ' ')),
+             fontsize=8.5, fontstyle='italic', va='bottom', color='#555555')
     fig.savefig(FIGURES / f'{name}.png', dpi=300, bbox_inches='tight')
     plt.close(fig)
 
@@ -127,6 +137,7 @@ def plot_chart_6(df, first, notes):
                             xytext=(0, 5), textcoords='offset points', ha='center', fontsize=9)
     ax.set(xticks=range(len(ERAS)), xticklabels=ERAS, ylabel='Tỷ lệ trận thắng cách biệt từ 3 bàn', ylim=(0, 45),
            title='06. Lượt nào có nhiều trận thắng đậm hơn?\nSo sánh ba lượt của vòng bảng đầu tiên')
+    ax.set_xlabel('Kỷ nguyên thể thức World Cup', fontsize=12, fontweight='bold', labelpad=10)
     ax.yaxis.set_major_formatter(PercentFormatter(100))
     ax.grid(axis='x', visible=False)
     ax.legend(title='Màu cột = lượt thi đấu', loc='upper left', ncol=3)
@@ -202,11 +213,12 @@ def plot_chart_8(df, ko, years, notes):
     no_knockout_1950(ax)
     ax.set(xticks=years, ylabel='Tỷ trọng trận theo cách phân định', ylim=(0, 112),
            title='08. Các trận loại trực tiếp được phân định như thế nào?\nMỗi cột là 100% số trận hợp lệ của một kỳ World Cup')
+    ax.set_xlabel('Năm diễn ra World Cup', fontsize=12, fontweight='bold', labelpad=10)
     expansion_marks(ax)
     ax.yaxis.set_major_formatter(PercentFormatter(100))
     ax.grid(axis='x',visible=False)
     ax.tick_params(axis='x', rotation=45)
-    ax.legend(title='Màu = cách xác định đội thắng', loc='upper center', bbox_to_anchor=(.5, -.14), ncol=4, fontsize=9)
+    ax.legend(title='Màu = cách xác định đội thắng', loc='upper center', bbox_to_anchor=(.5, -.18), ncol=4, fontsize=9)
     save(fig, '08_cach_phan_dinh_knockout', f'Cách đọc: số trong mảng màu = tỷ lệ; n trên cột = số trận được tính. Loại tranh hạng ba và {sample.Category.isna().sum()} trận ngoại lệ.\n'
          '1950 đá vòng bảng chung kết, không có vòng loại trực tiếp; khoảng xám không phải tỷ lệ 0%. Nhãn 90 phút theo nguồn.')
     notes.append(f'08: ĐÃ VẼ; n hợp lệ={len(valid)}, ngoại lệ={len(sample)-len(valid)}.')
@@ -240,8 +252,7 @@ def plot_chart_9(df, ko, years, notes):
             if pd.isna(values.iloc[row,col]):
                 ax.text(col+.5,row+.5,'—',ha='center',va='center',color='#64748b',fontsize=11)
     ax.set(title='09. Ở vòng nào, trận đấu thường kéo dài quá 90 phút?\nMàu đậm hơn = tỷ lệ hiệp phụ / luân lưu cao hơn', xlabel='Năm tổ chức', ylabel='Vòng loại trực tiếp')
-    ax.legend(handles=[Patch(facecolor='#e2e8f0',label='— Không có vòng / không có mẫu hợp lệ')],
-              loc='upper left',bbox_to_anchor=(0,-.12),frameon=True)
+    # Ý nghĩa ô xám được ghi ngay trong dòng chú thích; tránh lặp một legend riêng.
     save(fig, '09_heatmap_qua_90_phut', 'Cách đọc ô: 25% và 1/4 nghĩa là 1 trong 4 trận kéo dài quá 90 phút; 0% nghĩa là có trận nhưng không có hiệp phụ.\n'
          'Ô xám không phải 0%. Năm 1950 không có knockout; R32 chỉ có năm 2026. Gồm bàn thắng vàng; loại tranh hạng ba và cặp đá lại.')
     notes.append(f'09: ĐÃ VẼ; cùng mẫu hợp lệ n={len(valid)}; bảng có n theo ô.')
@@ -358,7 +369,7 @@ def plot_chart_10(df, ko, years, notes):
     ax.grid(axis='x',visible=False)
     ax.legend(handles=[Line2D([],[],marker='o',color='none',markerfacecolor='#1b4965',markeredgecolor='#1b4965',label='Tỷ lệ quan sát (ít nhất 5 cặp)'),
         Line2D([],[],marker='o',color='none',markerfacecolor='white',markeredgecolor='#1b4965',label='Dưới 5 cặp: mẫu nhỏ'),
-        Line2D([],[],color='#94a3b8',marker='_',label='Thanh xám: khoảng tin cậy 95%')],loc='upper left',bbox_to_anchor=(0,-.15),ncol=3,fontsize=9)
+        Line2D([],[],color='#94a3b8',marker='_',label='Thanh xám: khoảng tin cậy 95%')],loc='upper left',bbox_to_anchor=(0,-.10),ncol=3,fontsize=9)
     ax.tick_params(axis='x', rotation=45)
     save(fig, '10_cua_duoi_di_tiep', 'Cách đọc: 23% (3/13) = 3 lần cửa dưới đi tiếp trong 13 cặp đủ điều kiện. Thanh dài hơn = ước lượng kém chắc chắn hơn.\n'
         'Mỗi cặp chỉ tính một lần, gồm kết quả đá lại; loại tranh hạng ba. Khoảng tin cậy Wilson 95%; 1950 không có knockout. Ngưỡng 50/150 trong CSV.')
@@ -371,7 +382,7 @@ def main():
     TABLES.mkdir(exist_ok=True)
     sns.set_theme(style='whitegrid', font='DejaVu Sans')
     inputs = list((ROOT / 'production').glob('*.csv')) + [OUT / 'README.md']
-    original = {p: hashlib.sha256(p.read_bytes()).digest() for p in inputs}
+    original = {p: hashlib.sha256(p.read_bytes()).digest() for p in inputs if p.is_file()}
     df = pd.read_csv(ROOT / 'production/worldcup_master_cleaned.csv')
     df = df[df.Year.between(1930, 2026)].copy()
     df['Era'] = np.select([df.Year.lt(1982), df.Year.le(1994), df.Year.le(2022)], ERAS[:3], default=ERAS[3])
@@ -393,7 +404,7 @@ def main():
     # Vẽ hình 10 bằng Elo trước giải và kết quả cuối từng cặp.
     plot_chart_10(df, ko, years, notes)
     assert all(hashlib.sha256(p.read_bytes()).digest() == digest for p, digest in original.items()), 'Input changed'
-    notes.append('Đã kiểm tra SHA-256: tất cả CSV production và visualization/README.md giữ nguyên.')
+    notes.append('Đã kiểm tra SHA-256: CSV production và README (nếu có) giữ nguyên.')
     # Giữ danh mục giải thích 10 hình; nhật ký kỹ thuật xuất sang tệp riêng.
     (OUT / 'trang_thai_xuat_bieu_do.txt').write_text('\n'.join(notes)+'\n', encoding='utf-8')
     print('\n'.join(notes))
